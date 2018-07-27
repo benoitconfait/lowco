@@ -1,0 +1,6 @@
+export enum ErrorActionTypes {
+    CLEAR_ERROR = 'CLEAR_ERROR',
+    THROW_ERROR = 'THROW_ERROR',
+    EMULATE_401_ERROR = 'EMULATE_401_ERROR',
+    LOG_ERROR = 'LOG_ERROR',
+}

@@ -1,0 +1,299 @@
+{
+  "accountInfo": {
+    "login": "/customer ->  login",
+    "clientNumber": "/customer -> customerId",
+    "firstName": "/customer -> firstname",
+    "lastName": "/customer -> lastname",
+    "email": "/customer -> emailAddress",
+    "homePhone": "/customer -> telephoneNumber",
+    "billingAddress": {
+      "streetName": "/customer -> addresses (type:Billing) -> street",
+      "houseNumber": "/customer -> addresses (type:Billing) -> houseNumber",
+      "boxNumber": "/customer -> addresses (type:Billing) -> boxNumber",
+      "zipCode": "/customer -> addresses (type:Billing) -> zipCode",
+      "city": "/customer -> addresses (type:Billing) -> city"
+    },
+    "mobileNumber": "/customer ->  gsmNumber",
+    "contactEmail": "/customer ->  emailAddress"
+  },
+  "billing": {
+    "balanceOwed": "/customer/billing/balance -> totalBalance",
+    "summary": {
+      "pack": "/customer/billing/balance -> totalPack",
+      "mobile": "/customer/billing/balance -> totalMobile",
+      "tv": "/customer/billing/balance -> totalTelevision",
+      "other": "/customer/billing/balance -> ???????"
+    },
+    "invoices": [
+      {
+        "type": "/customer/billing/invoices -> items[0] -> product",
+        "createdDate": "/customer/billing/invoices -> items[0] -> invoiceDate",
+        "dueDate": "/customer/billing/invoices -> items[0] -> paymentDueDate",
+        "paymentStatus": "/customer/billing/invoices -> items[0] -> paymentStatus",
+        "cost": "/customer/billing/invoices -> items[0] -> amount",
+        "documentId": "/customer/billing/invoices -> items[0] -> id",
+        "documentReference": "/customer/billing/invoices -> items[0] -> documentReference"
+      }
+    ]
+  },
+  "portfolio": {
+    "fix": {
+      "/customer -> addresses (type:Usage) -> pointOfDelivery (000000000014741292)": {
+        "packId": "/customer -> addresses (type:Usage) -> packId",
+        "usageAddress": {
+          "streetName": "/customer -> addresses (type:Usage) -> street",
+          "houseNumber": "/customer -> addresses (type:Usage) -> houseNumber",
+          "boxNumber": "/customer -> addresses (type:Usage) -> boxNumber",
+          "zipCode": "/customer -> addresses (type:Usage) -> zipCode",
+          "city": "/customer -> addresses (type:Usage) -> city"
+        },
+        "tv": {
+          "options": [
+            {
+              "key": "/customer/options -> options[category=Television && pointOfDeliveryId=000000000014741292] -> externalId",
+              "price": "/customer/options -> options[category=Television && pointOfDeliveryId=000000000014741292] -> price",
+              "status": "/customer/options -> options[category=Television && pointOfDeliveryId=000000000014741292] -> status"
+            }
+          ],
+          "parameters": {
+            "parentalControlMinAgeRating": "/customer/configuration/television -> parentalControlMinAgeRating",
+            "parentalControlPinCode": "/customer/configuration/television -> parentalControlPinCode",
+            "vodPurchaseCode": "/customer/configuration/television -> vodPurchaseCode"
+          },
+          "freeServices": [
+            {
+              "key": "/customer/options -> options[category=Television && pointOfDeliveryId=000000000014741292 && price=0] -> externalId",
+              "status": "/customer/options -> options[category=Television && pointOfDeliveryId=000000000014741292 && price=0] -> status"
+            }
+          ]
+        },
+        "homePhone": {
+          "023544545": {
+            "options": [
+              {
+                "key": "/customer/options -> options[type=option && category=Television && pointOfDeliveryId=000000000014741292] -> externalId",
+                "price": "/customer/options -> options[type=option && category=Television && pointOfDeliveryId=000000000014741292] -> price",
+                "status": "/customer/options -> options[type=option && category=Television && pointOfDeliveryId=000000000014741292] -> status"
+              }
+            ],
+            "parameters": [
+              {
+                "key": "[/customer/options -> options[type=parameter && category=Television && pointOfDeliveryId=000000000014741292] -> externalId]",
+                "status": "[/customer/options -> options[type=parameter && category=Television && pointOfDeliveryId=000000000014741292] -> status]"
+              }
+            ]
+          }
+        },
+        "net": {
+          "options": [
+            {
+              "key": "/customer/options -> options[category=Internet && pointOfDeliveryId=000000000014741292] -> externalId",
+              "price": "/customer/options -> options[category=Internet && pointOfDeliveryId=000000000014741292] -> price",
+              "status": "/customer/options -> options[category=Internet && pointOfDeliveryId=000000000014741292] -> status"
+            }
+          ],
+          "freeServices": [
+            {
+              "key": "/customer/options -> options[category=Internet && pointOfDeliveryId=000000000014741292 && price=0] -> externalId",
+              "status": "/customer/options -> options[category=Internet && pointOfDeliveryId=000000000014741292 && price=0] -> status"
+            }
+          ]
+        }
+      }
+    },
+    "mobile": {
+      "/subscriptions/mobile -> subscriptions[0] -> msisdn (32471252525)": {
+        "subscriptionId": "/subscriptions/mobile -> subscriptions[0] -> id",
+        "tariffPlan": "/subscriptions/mobile -> subscriptions[0] -> offer -> name",
+        "monthlyCost": "/subscriptions/mobile -> subscriptions[0] -> offer -> price",
+        "simCardNumber": "/subscriptions/mobile -> subscriptions[0] -> simCard -> iccid",
+        "ownerFirstName": "/subscriptions/mobile -> subscriptions[0] -> holder -> firstname",
+        "ownerLastName": "/subscriptions/mobile -> subscriptions[0] -> holder -> lastname",
+        "options": [
+          {
+            "key": "/customer/options -> options[category=Mobile && phoneNumber=32471252525] -> externalId",
+            "price": "/customer/options -> options[category=Mobile && phoneNumber=32471252525] -> price",
+            "status": "/customer/options -> options[category=Mobile && phoneNumber=32471252525] -> status"
+          }
+        ],
+        "parameters": [
+          {
+            "key": "[TBD]",
+            "status": "[TBD]"
+          }
+        ],
+        "freeServices": [
+          {
+            "key": "/customer/options -> options[category=Mobile && phoneNumber=32471252525 && price=0] -> externalId",
+            "status": "/customer/options -> options[category=Mobile && phoneNumber=32471252525 && price=0] -> status"
+          }
+        ]
+      }
+    }
+  },
+  "mobile": {
+    "/subscriptions/mobile -> subscriptions[0] -> msisdn (0471252525)": {
+      "currentBalance": "/subscriptions/mobile -> subscriptions[0] -> balance",
+      "options": {
+        "/subscriptions/mobile -> subscriptions[0] -> usage -> (europe || boostdata)": {
+          "usage": {
+            "voice": {
+              "currentValue": "/subscriptions/mobile -> subscriptions[0] -> usage -> (europe || boostdata) -> voice -> current",
+              "maxValue": "/subscriptions/mobile -> subscriptions[0] -> usage -> (europe || boostdata) -> voice -> limit + unlimited"
+            },
+            "sms": {
+              "currentValue": "/subscriptions/mobile -> subscriptions[0] -> usage -> (europe || boostdata) -> sms -> current",
+              "maxValue": "/subscriptions/mobile -> subscriptions[0] -> usage -> (europe || boostdata) -> sms -> limit + unlimited"
+            }
+          }
+        }
+      },
+      "daily": [
+        {
+          "date": "/cdr -> items[] -> date",
+          "cost": "/cdr -> items[] -> cost",
+          "items": [
+            {
+              "type": "/cdr -> items[] -> records[] -> type",
+              "phoneNumber": "/cdr -> items[] -> records[] -> phoneNumber",
+              "offPlan": "/cdr -> items[] -> records[] -> offPlan",
+              "time": "/cdr -> items[] -> records[] -> time",
+              "cost": "/cdr -> items[] -> records[] -> cost"
+            }
+          ]
+        }
+      ],
+      "outOfBundle": {
+        "totalUsage": "/cdr -> summary -> outOfBundleUsage -> usage",
+        "budget": "/cdr -> summary -> outOfBundleUsage -> cost"
+      },
+      "voice": {
+        "currentValue": "/subscriptions/mobile -> subscriptions[0] -> usage -> main -> voice -> current",
+        "maxValue": "/subscriptions/mobile -> subscriptions[0] -> usage -> main -> voice -> limit + unlimited",
+        "outOfBundle": {
+          "totalCost": "/cdr -> summary -> details[name=voice] -> (details[name=national] -> cost) + (details[name=international] -> cost)",
+          "national": {
+            "cost": "/cdr -> summary -> details[name=voice] -> details[name=national] -> cost",
+            "minutes": "/cdr -> summary -> details[name=voice] -> details[name=national] -> usage"
+          },
+          "international": {
+            "cost": "/cdr -> summary -> details[name=voice] -> details[name=international] -> cost",
+            "minutes": "/cdr -> summary -> details[name=voice] -> details[name=international] -> usage"
+          }
+        }
+      },
+      "sms": {
+        "currentValue": "number",
+        "maxValue": "number || null",
+        "outOfBundle": {
+          "totalCost": "/cdr -> summary -> details[name=sms] -> (details[name=national] -> cost) + (details[name=international] -> cost)",
+          "national": {
+            "cost": "/cdr -> summary -> details[name=sms] -> details[name=national] -> cost",
+            "minutes": "/cdr -> summary -> details[name=sms] -> details[name=national] -> usage"
+          },
+          "international": {
+            "cost": "/cdr -> summary -> details[name=sms] -> details[name=international] -> cost",
+            "minutes": "/cdr -> summary -> details[name=sms] -> details[name=international] -> usage"
+          }
+        }
+      },
+      "data": {
+        "currentValue": "number",
+        "maxValue": "number || null",
+        "outOfBundle": {
+          "totalCost": "/cdr -> summary -> details[name=data] -> (details[name=national] -> cost) + (details[name=data] -> cost)",
+          "national": {
+            "cost": "/cdr -> summary -> details[name=data] -> details[name=national] -> cost",
+            "dataUsage": "/cdr -> summary -> details[name=data] -> details[name=national] -> usage",
+            "unit": "/cdr -> summary -> details[name=data] -> details[name=national] -> unit"
+          },
+          "international": {
+            "cost": "/cdr -> summary -> details[name=data] -> details[name=international] -> cost",
+            "dataUsage": "/cdr -> summary -> details[name=data] -> details[name=international] -> usage",
+            "unit": "/cdr -> summary -> details[name=data] -> details[name=international] -> unit"
+          }
+        }
+      }
+    }
+  },
+  "internet": {
+    "/usage/net/ -> items[connectionId=00218282710001]": {
+      "currentValue": "/usage/net/ -> items[connectionId=00218282710001] -> totalVolumeAsBytes",
+      "maxValue": "/usage/net/ -> items[connectionId=00218282710001] -> quotaAsBytes",
+      "daily": {
+        "201712": {
+          "year": "2012",
+          "month": "12",
+          "currentValue": "/usage/net/2017/12 -> totalVolumeAsBytes",
+          "dailyUsage": [
+            {
+              "day": "1",
+              "value": "/usage/net/2017/12 -> dailyUsages[1] -> totalVolumeAsBytes"
+            }
+          ]
+        }
+      },
+      "monthly": [
+        {
+          "month": "/usage/net/yearly -> items[0] -> periodStartDate",
+          "value": "/usage/net/yearly -> items[0] -> totalVolumeAsBytes"
+        }
+      ]
+    }
+  },
+  "homePhone": {
+    "/customer/phones -> items[0] -> esId  (23544545)": {
+      "sap14": "/customer/phones -> items[0] -> serviceId",
+      "acbisNumber": "/customer/phones -> items[0] -> acbisNumber",
+      "options": [
+        {
+          "key": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> options[id] -> id",
+          "currentValue": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> options[id] -> bundles[type] -> currentValue",
+          "maxValue": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> options[id] -> bundles[type] -> value"
+        }
+      ],
+      "totalDuration": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> totalVoiceCommunication",
+      "outOfBundle": {
+        "balanceOwed": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> outOfBundlePriceTVAC",
+        "national": {
+          "cost": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[crPriceTVAC > 0 && callLocalisation=National -> sum(crPriceTVAC)",
+          "minutes": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[crPriceTVAC > 0 && callLocalisation=National -> sum(crDuration / 60)"
+        },
+        "international": {
+          "cost": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[crPriceTVAC > 0 && callLocalisation!=National -> sum(crPriceTVAC)",
+          "minutes": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[crPriceTVAC > 0 && callLocalisation!=National -> sum(crDuration / 60)"
+        }
+      },
+      "callDetails": [
+        {
+          "date": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[0] -> crCallBegin[Date]",
+          "cost": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items -> sum(crPriceTVAC)",
+          "items": [
+            {
+              "type": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[0] -> callDeviceType + '-' + callLocalisation",
+              "phoneNumber": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[0] -> crDest",
+              "outOfBundle": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[0] -> crPriceTVAC > 0",
+              "time": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[0] -> crCallBegin[Time]",
+              "duration": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[0] -> crDuration",
+              "cost": "/usage/phone/[sap14]/[esid]/[year]/[month]?an=[acbisNumber] -> items[0] -> crPriceTVAC"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vod": {
+    "00218282710001": {
+      "month": "[currentMonth]",
+      "year": "[currentYear]",
+      "totalCost": "/usage/vod/00218282710001/2017/12 -> items -> sum(priceTTC)",
+      "items": [
+        {
+          "day": "/usage/vod/00218282710001/2017/12 -> items[0] -> creationDateTime",
+          "name": "/usage/vod/00218282710001/2017/12 -> items[0] -> name",
+          "cost": "/usage/vod/00218282710001/2017/12 -> items[0] -> priceTTC"
+        }
+      ]
+    }
+  }
+}

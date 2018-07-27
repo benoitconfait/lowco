@@ -1,0 +1,1851 @@
+[
+    {
+        "type": "Mobile",
+        "key": "LIMIT",
+        "description": {
+            "de": "Bloquer une limite pour vos consommations hors forfait.",
+            "en": "Bloquer une limite pour vos consommations hors forfait.",
+            "nl": "Bloquer une limite pour vos consommations hors forfait.",
+            "fr": "Bloquer une limite pour vos consommations hors forfait."
+        },
+        "name": {
+            "en": "Budget maîtrisé",
+            "de": "Budget maîtrisé",
+            "nl": "Budget maîtrisé",
+            "fr": "Budget maîtrisé"
+        }
+    },
+    {
+        "tagline": {
+            "de": "1 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "nl": "1 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 1 Go supplémentaire à votre quota mensuel d'internet mobile.",
+            "en": "Add an extra 1 Go to your monthly mobile internet quota."
+        },
+        "type": "Mobile",
+        "description": {
+            "de": "1 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "en": "Add an extra 1 Go to your monthly mobile internet quota.",
+            "nl": "1 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 1 Go supplémentaire à votre quota mensuel d'internet mobile."
+        },
+        "name": {
+            "en": "Option Data + 1Go",
+            "de": "Option Data + 1Go",
+            "nl": "Option Data + 1Go",
+            "fr": "Option Data + 1Go"
+        },
+        "key": "DATA01"
+    },
+    {
+        "tagline": {
+            "de": "2 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "nl": "2 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 2 Go supplémentaire à votre quota mensuel d'internet mobile.",
+            "en": "Add an extra 2 Go to your monthly mobile internet quota."
+        },
+        "type": "Mobile",
+        "description": {
+            "de": "2 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "en": "Add an extra 2 Go to your monthly mobile internet quota.",
+            "nl": "2 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 2 Go supplémentaire à votre quota mensuel d'internet mobile."
+        },
+        "name": {
+            "en": "Option Data + 2Go",
+            "de": "Option Data + 2Go",
+            "nl": "Option Data + 2Go",
+            "fr": "Option Data + 2Go"
+        },
+        "key": "DATA02"
+    },
+    {
+        "tagline": {
+            "de": "3 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "nl": "3 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 3 Go supplémentaire à votre quota mensuel d'internet mobile.",
+            "en": "Add an extra 3 Go to your monthly mobile internet quota."
+        },
+        "type": "Mobile",
+        "description": {
+            "de": "3 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "en": "Add an extra 3 Go to your monthly mobile internet quota.",
+            "nl": "3 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 3 Go supplémentaire à votre quota mensuel d'internet mobile."
+        },
+        "name": {
+            "en": "Option Data + 3Go",
+            "de": "Option Data + 3Go",
+            "nl": "Option Data + 3Go",
+            "fr": "Option Data + 3Go"
+        },
+        "key": "DATA03"
+    },
+    {
+        "tagline": {
+            "de": "4 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "nl": "4 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 4 Go supplémentaire à votre quota mensuel d'internet mobile.",
+            "en": "Add an extra 4 Go to your monthly mobile internet quota."
+        },
+        "type": "Mobile",
+        "description": {
+            "de": "4 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "en": "Add an extra 4 Go to your monthly mobile internet quota.",
+            "nl": "4 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 4 Go supplémentaire à votre quota mensuel d'internet mobile."
+        },
+        "name": {
+            "en": "Option Data + 4Go",
+            "de": "Option Data + 4Go",
+            "nl": "Option Data + 4Go",
+            "fr": "Option Data + 4Go"
+        },
+        "key": "DATA04"
+    },
+    {
+        "tagline": {
+            "de": "5 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "nl": "5 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 5 Go supplémentaire à votre quota mensuel d'internet mobile.",
+            "en": "Add an extra 5 Go to your monthly mobile internet quota."
+        },
+        "type": "Mobile",
+        "description": {
+            "de": "5 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "en": "Add an extra 5 Go to your monthly mobile internet quota.",
+            "nl": "5 bijkomende GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 5 Go supplémentaire à votre quota mensuel d'internet mobile."
+        },
+        "name": {
+            "en": "Option Data + 5Go",
+            "de": "Option Data + 5Go",
+            "nl": "Option Data + 5Go",
+            "fr": "Option Data + 5Go"
+        },
+        "key": "DATA05"
+    },
+    {
+        "tagline": {
+            "de": "8 GB zusätzlich zu Ihrem monatlichen mobilen Datenvolumen hinzubuchen.",
+            "en": "Add 8 GB to increase your monthly data quota.",
+            "nl": "8 GB toevoegen aan uw maandelijkse datahoeveelheid.",
+            "fr": "Ajouter 8 Go supplémentaires à votre quota mensuel de data."
+        },
+        "type": "Mobile",
+        "description": {
+            "de": "[8Go supplémentaires pour votre mobile.]",
+            "en": "[8Go supplémentaires pour votre mobile.]",
+            "nl": "[8Go supplémentaires pour votre mobile.]",
+            "fr": "8Go supplémentaires pour votre mobile."
+        },
+        "name": {
+            "en": "Option DataBoost",
+            "de": "Option DataBoost",
+            "nl": "Option DataBoost",
+            "fr": "Option DataBoost"
+        },
+        "key": "BOOST_MOBILE"
+    },
+    {
+        "type": "Mobile",
+        "key": "SMARTPHONE"
+    },
+    {
+        "tagline": {
+            "de": "Bleiben Sie über Landesgrenzen hinweg mit allen in Kontakt, die Ihnen wichtig sind.",
+            "nl": "Blijft in contact en krijg in het buitenland nieuws van familie en vrienden.",
+            "fr": "Restez en contact et prenez des nouvelles de vos proches à l'étranger.",
+            "en": "Stay in touch and catch up with your friends and family abroad."
+        },
+        "key": "EUROPE_INT",
+        "type": "Mobile",
+        "name": {
+            "en": "Option vers l'Europe",
+            "fr": "Option vers l'Europe",
+            "nl": "Option vers l'Europe",
+            "de": "Option vers l'Europe"
+        },
+        "description": {
+            "en": "[De Belgique vers l’Europe :\n- 30 minutes d’appel (vers fixe et/ou mobile)\n- 30 SMS]",
+            "fr": "De Belgique vers l’Europe :\n- 30 minutes d’appel (vers fixe et/ou mobile)\n- 30 SMS",
+            "nl": "[De Belgique vers l’Europe :\n- 30 minutes d’appel (vers fixe et/ou mobile)\n- 30 SMS]",
+            "de": "[De Belgique vers l’Europe :\n- 30 minutes d’appel (vers fixe et/ou mobile)\n- 30 SMS]"
+        }
+    },
+    {
+        "tagline": {
+            "de": "Nutzen Sie Ihren Inlandstarif europaweit für 2€/Nutzungstag.",
+            "nl": "Gebruik uw nationale abonnement in Europa voor € 2/dag verbruik.",
+            "fr": "Utilisez votre forfait national en Europe pour 2€ /jour d'utilisation.",
+            "en": "Use your national plan in Europe for € 2 /day of use."
+        },
+        "key": "ROAMING_PASS",
+        "type": "Mobile",
+        "name": {
+            "en": "Day Pass Europe",
+            "fr": "Day Pass Europe",
+            "nl": "Day Pass Europe",
+            "de": "Day Pass Europe"
+        },
+        "description": {
+            "en": "Use your national plan in Europe for €2/day of use to make up to 60 minutes of calls, to send 60 text messages and use 100 Mo of mobile internet deducted from your plan.<br/><br/>More info: <a target=\"_blank\" href=\"http://www.voo.be/en/gsm/tarifs/#europe\">Consult the list of available countries</a>",
+            "fr": "Utilisez votre forfait national en Europe pour 2€ /jour d'utilisation à raison de 60 minutes, 60 SMS et 100 Mo d'internet mobile déduits de votre forfait.<br/><br/>Plus d'informations : <a target=\"_blank\" href=\"http://www.voo.be/en/gsm/tarifs/#europe\">Consultez la liste des pays disponibles</a>",
+            "nl": "Gebruik uw nationale abonnement in Europa voor € 2/dag verbruik tegen de prijs van 60 minuten, 60 sms’en en 100 MB mobiel internet die afgetrokken worden van uw abonnement.<br/><br/>Meer informatie:  <a target=\"_blank\" href=\"http://www.voo.be/nl/gsm/tarifs/#europe\">Raadpleeg de lijst met de beschikbare landen</a>",
+            "de": "Nutzen Sie Ihren Inlandstarif europaweit für 2€/Nutzungstag: bis zu 60 Minuten, 60 SMS und 100 MB mobiles Internet, die von Ihrer Pauschale abgezogen werden.<br/><br/>Nähere Informationen: <a target=\"_blank\" href=\"http://www.voo.be/en/gsm/tarifs/#europe\">Länderliste einsehen</a>"
+        }
+    },
+    {
+        "tagline": {
+            "de": "2.000 Minuten im Monat für Anrufe vom Festnetz in die Festnetze von 64 Ländern, 24/7.",
+            "nl": "2000 minuten per maand om elke dag de klok rond te bellen met uw vaste lijn naar vaste lijnen in 64 verschillende landen.",
+            "fr": "2000 minutes par mois pour téléphoner de fixe à fixe vers 64 pays, 24h/7.",
+            "en": "2000 minutes per month to make landline to landline calls towards 64 countries, 24/7."
+        },
+        "type": "TEL",
+        "priority": 22,
+        "description": {
+            "de": "[- 2000 minutes/mois\n- Vers 64 pays\n- Appels gratuits de fixe à fixe 24h/7]",
+            "en": "[- 2000 minutes/mois\n- Vers 64 pays\n- Appels gratuits de fixe à fixe 24h/7]",
+            "nl": "[- 2000 minutes/mois\n- Vers 64 pays\n- Appels gratuits de fixe à fixe 24h/7]",
+            "fr": "- 2000 minutes/mois\n- Vers 64 pays\n- Appels gratuits de fixe à fixe 24h/7"
+        },
+        "name": {
+            "en": "Option Internationale",
+            "de": "Option Internationale",
+            "nl": "Option Internationale",
+            "fr": "Option Internationale"
+        },
+        "key": "INTER01"
+    },
+    {
+        "type": "NET",
+        "key": "SOHO"
+    },
+    {
+        "key": "FIXE01",
+        "priority": 23,
+        "name": {
+            "fr": "Option Fixe à Mobile",
+            "nl": "Option Fixe à Mobile",
+            "de": "Option Fixe à Mobile",
+            "en": "Option Fixe à Mobile"
+        },
+        "description": {
+            "fr": "- 1000 minutes par mois\n- Appels vers les mobiles nationaux, 24h/7\n- Vers 64 pays",
+            "nl": "[- 1000 minutes par mois\n- Appels vers les mobiles nationaux, 24h/7\n- Vers 64 pays]",
+            "en": "[- 1000 minutes par mois\n- Appels vers les mobiles nationaux, 24h/7\n- Vers 64 pays]",
+            "de": "[- 1000 minutes par mois\n- Appels vers les mobiles nationaux, 24h/7\n- Vers 64 pays]"
+        },
+        "type": "TEL",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "type": "TV",
+        "key": "S2MD",
+        "name": {
+            "en": "VOOmotion",
+            "de": "VOOmotion",
+            "nl": "VOOmotion",
+            "fr": "VOOmotion"
+        },
+        "description": {
+            "fr": "Profiter de la TV de VOO sur tous vos écrans.",
+            "nl": "[Profiter de la TV de VOO sur tous vos écrans.]",
+            "en": "[Profiter de la TV de VOO sur tous vos écrans.]",
+            "de": "[Profiter de la TV de VOO sur tous vos écrans.]"
+        },
+    },
+    {
+        "key": "CfAR",
+        "name": {
+            "fr": "Rappel",
+            "nl": "Rappel",
+            "de": "Rappel",
+            "en": "Rappel"
+        },
+        "description": {
+            "fr": "Rappel",
+            "nl": "Herinnering",
+            "en": "Reminder",
+            "de": "Erinnerung"
+        },
+        "type": "FIX",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "CfCIDB",
+        "name": {
+            "fr": "Numéro caché",
+            "nl": "Numéro caché",
+            "de": "Numéro caché",
+            "en": "Numéro caché"
+        },
+        "description": {
+            "fr": "Numéro caché",
+            "nl": "Nummer verborgen",
+            "en": "Concealed number",
+            "de": "Verborgene Nummer"
+        },
+        "type": "FIX",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "CfCNAM",
+        "name": {
+            "fr": "Montrer le numéro",
+            "nl": "Montrer le numéro",
+            "de": "Montrer le numéro",
+            "en": "Montrer le numéro"
+        },
+        "description": {
+            "fr": "Montrer le numéro",
+            "nl": "Het nummer tonen",
+            "en": "Show the number",
+            "de": "Nummer anzeigen"
+        },
+        "type": "FIX",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "DISPLAY_NUMBER_FOR_ONCE",
+        "name": {
+            "fr": "Afficher votre numéro pour un seul appel",
+            "nl": "Afficher votre numéro pour un seul appel",
+            "de": "Afficher votre numéro pour un seul appel",
+            "en": "Afficher votre numéro pour un seul appel"
+        },
+        "description": {
+            "fr": "Afficher votre numéro pour un seul appel",
+            "nl": "Uw nummer voor één oproep weergeven",
+            "en": "Show your number for one single call",
+            "de": "Eigene Rufnummer für einen einzelnen Anruf anzeigen"
+        },
+        "type": "FIX",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "HIDE_NUMBER_FOR_ONCE",
+        "name": {
+            "fr": "Masquer votre numéro pour un seul appel",
+            "nl": "Masquer votre numéro pour un seul appel",
+            "de": "Masquer votre numéro pour un seul appel",
+            "en": "Masquer votre numéro pour un seul appel"
+        },
+        "description": {
+            "fr": "Masquer votre numéro pour un seul appel",
+            "nl": "Uw nummer voor één oproep verbergen",
+            "en": "Conceal your number for one single call",
+            "de": "Eigene Rufnummer für einen einzelnen Anruf unterdrücken"
+        },
+        "type": "FIX",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "CfCW",
+        "name": {
+            "fr": "Identifier et rappeler le dernier appelant",
+            "nl": "Identifier et rappeler le dernier appelant",
+            "de": "Identifier et rappeler le dernier appelant",
+            "en": "Identifier et rappeler le dernier appelant"
+        },
+        "description": {
+            "fr": "Identifier et rappeler le dernier appelant",
+            "nl": "De laatste beller opzoeken en terugbellen",
+            "en": "Identify and call back the last caller",
+            "de": "Letzten Anrufer erkennen und zurückrufen"
+        },
+        "type": "FIX",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "CfLSR",
+        "name": {
+            "fr": "Bloquer les numéros spéciaux",
+            "nl": "Bloquer les numéros spéciaux",
+            "de": "Bloquer les numéros spéciaux",
+            "en": "Bloquer les numéros spéciaux"
+        },
+        "description": {
+            "fr": "Bloquer les numéros spéciaux",
+            "nl": "Speciale nummers blokkeren",
+            "en": "Block the special numbers",
+            "de": "Spezialnummern sperren"
+        },
+        "type": "FIX",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "tagline": {
+            "de": "Schützen Sie sich und Ihre ganze Familie vor den Gefahren im Netz!",
+            "nl": "Bescherm uzelf en uw gezin tegen de gevaren van het internet.",
+            "fr": "Protégez-vous ainsi que votre votre famille des dangers de l'internet.",
+            "en": "Protect yourself and your family from the dangers of the Internet."
+        },
+        "key": "VOOSEC01",
+        "name": {
+            "fr": "6 licences",
+            "nl": "6 licenties",
+            "de": "6 Lizenzen",
+            "en": "6 licences"
+        },
+        "description": {
+            "fr": "Protéger jusqu’à 12 appareils avec l’antivirus de VOO.",
+            "nl": "[Protéger jusqu’à 12 appareils avec l’antivirus de VOO.]",
+            "en": "[Protéger jusqu’à 12 appareils avec l’antivirus de VOO.]",
+            "de": "[Protéger jusqu’à 12 appareils avec l’antivirus de VOO.]"
+        },
+        "type": "NET"
+    },
+    {
+        "tagline": {
+            "de": "Schützen Sie sich und Ihre ganze Familie vor den Gefahren im Netz!",
+            "nl": "Bescherm uzelf en uw gezin tegen de gevaren van het internet.",
+            "fr": "Protégez-vous ainsi que votre votre famille des dangers de l'internet.",
+            "en": "Protect yourself and your family from the dangers of the Internet."
+        },
+        "key": "VOOSEC02",
+        "name": {
+            "fr": "12 licences",
+            "nl": "12 licenties",
+            "de": "12 Lizenzen",
+            "en": "12 licences"
+        },
+        "description": {
+            "fr": "Protégez-vous ainsi que votre votre famille des dangers de l'internet. Un antivirus pour défendre jusqu'à 12 appareils (PC, Mac, smartphones et tablettes).",
+            "nl": "Bescherm uzelf en uw gezin tegen de gevaren van het internet. Een bekroonde antivirus om tot 12 apparaten te beschermen (pc, Mac, smartphones en tablets).",
+            "en": "Protect yourself and your family from the dangers of the Internet. An award-winning anti-virus to protect up to 12 devices (PC, Mac, smartphones and tablets).",
+            "de": "Schützen Sie sich und Ihre ganze Familie vor den Gefahren im Netz! Ein prämierter Virenschutz, der bis zu 12 Geräte (PC, Mac, Smartphones und Tablets) gegen Angriffe verteidigt."
+        },
+        "type": "NET"
+    },
+    {
+        "key": "CLDPDOO",
+        "name": {
+            "fr": "VOOcloud toudoo",
+            "nl": "VOOcloud toudoo",
+            "de": "VOOcloud toudoo",
+            "en": "VOOcloud toudoo"
+        },
+        "description": {
+            "fr": "VOOcloud toudoo",
+            "nl": "VOOcloud toudoo",
+            "en": "VOOcloud toudoo",
+            "de": "VOOcloud toudoo"
+        },
+        "type": "NET",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "CLDPHOO",
+        "name": {
+            "fr": "VOOcloud wahoo",
+            "nl": "VOOcloud wahoo",
+            "de": "VOOcloud wahoo",
+            "en": "VOOcloud wahoo"
+        },
+        "description": {
+            "fr": "VOOcloud wahoo",
+            "nl": "VOOcloud wahoo",
+            "en": "VOOcloud wahoo",
+            "de": "VOOcloud wahoo"
+        },
+        "type": "NET",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "CLDPTOO",
+        "name": {
+            "fr": "VOOcloud tatoo",
+            "nl": "VOOcloud tatoo",
+            "de": "VOOcloud tatoo",
+            "en": "VOOcloud tatoo"
+        },
+        "description": {
+            "fr": "VOOcloud tatoo",
+            "nl": "VOOcloud tatoo",
+            "en": "VOOcloud tatoo",
+            "de": "VOOcloud tatoo"
+        },
+        "type": "NET",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "WIHOMESPOT",
+        "name": {
+            "fr": "Wi-Free",
+            "nl": "Wi-Free",
+            "de": "Wi-Free",
+            "en": "Wi-Free"
+        },
+        "description": {
+            "fr": "Profiter de l’internet de VOO en dehors de chez vous.",
+            "nl": "[Profiter de l’internet de VOO en dehors de chez vous.]",
+            "en": "[Profiter de l’internet de VOO en dehors de chez vous.]",
+            "de": "[Profiter de l’internet de VOO en dehors de chez vous.]"
+        },
+        "type": "NET",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "LOC_TN",
+        "name": {
+            "fr": "Box .évasion",
+            "nl": "Box .évasion",
+            "de": "Box .évasion",
+            "en": "Box .évasion"
+        },
+        "description": {
+            "fr": "Box .évasion",
+            "nl": ".evasion-box",
+            "en": ".Évasion box",
+            "de": ".évasion-Box"
+        },
+        "type": "TV",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "description": {
+            "nl": "Vervang uw VOOcorder door de .évasion-box.",
+            "de": "Tauschen Sie den VOOcorder gegen die .évasion.-Box",
+            "fr": "Échangez le VOOcorder contre la box. évasion.",
+            "en": "Swap the VOOcorder for the .évasion box."
+        },
+        "type": "TV",
+        "name": {
+            "nl": "VOOcorder",
+            "de": "VOOcorder",
+            "fr": "VOOcorder",
+            "en": "VOOcorder"
+        },
+        "key": "LOC_DEC",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "PLOC_TN",
+        "name": {
+            "fr": "Box .évasion",
+            "nl": ".évasion-box",
+            "de": ".évasion-Box",
+            "en": ".évasion box"
+        },
+        "description": {
+            "fr": ".evasion-box",
+            "nl": ".evasion-box",
+            "en": ".evasion-box",
+            "de": ".évasion-Box"
+        },
+        "type": "TV",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "description": {
+            "nl": "VOOcorder",
+            "de": "VOOcorder",
+            "fr": "VOOcorder",
+            "en": "VOOcorder"
+        },
+        "type": "TV",
+        "name": {
+            "nl": "VOOcorder",
+            "de": "VOOcorder",
+            "fr": "VOOcorder",
+            "en": "VOOcorder"
+        },
+        "key": "PLOC_DEC",
+        "tagline": {
+            "nl": "",
+            "en": "",
+            "de": ""
+        }
+    },
+    {
+        "key": "BEFICTION",
+        "type": "TV",
+        "priority": 1,
+        "tagline": {
+            "de": "Das Kino- und Serienpaket, das unter die Haut geht.",
+            "nl": "Het aanbod van films en series vol emoties.",
+            "fr": "L'offre ciné-séries exclusivement dédiées à vos émotions.",
+            "en": "The film and series offer totally in tune with your emotions."
+        },
+        "description": {
+            "de": "[Le top du Cinéma et des Séries.]",
+            "nl": "[Le top du Cinéma et des Séries.]",
+            "fr": "Le top du Cinéma et des Séries.",
+            "en": "[Le top du Cinéma et des Séries.]"
+        },
+        "name": {
+            "en": "Be tv",
+            "de": "Be tv",
+            "nl": "Be tv",
+            "fr": "Be tv"
+        },
+        "channels": [{
+                "key": "20-BE1-HD"
+            },
+            {
+                "key": "21-BE1-1H"
+            },
+            {
+                "key": "22-BESERIE"
+            },
+            {
+                "key": "23-BECINE"
+            },
+            {
+                "key": "25-CINEPREMIER"
+            },
+            {
+                "key": "26-CINEFRISSON"
+            },
+            {
+                "key": "27-CINECLASSIC"
+            }
+        ],
+        "themes": [{
+                "priority": 1,
+                "value": "CINEMA_THEME_OPTION"
+            },
+            {
+                "priority": 3,
+                "value": "CHARME_THEME_OPTION"
+            },
+            {
+                "priority": 4,
+                "value": "DIV_THEME_OPTION"
+            }
+        ],
+        "image": "/img/cms/options/betv.jpg",
+        "image-mobile": "/img/cms/options/betv-mobile.jpg",
+        "logo": "/img/cms/options/betv-logo.png",
+        "included": [{
+                "key": "BE-GO"
+            },
+            {
+                "key": "28-BE-3D"
+            },
+            {
+                "key": "BE-ON-DEMAND"
+            }
+        ]
+    },
+    {
+        "key": "VOOSPORTP",
+        "type": "TV",
+        "priority": 2,
+        "name": {
+            "fr": "VOOsport World",
+            "nl": "VOOsport World",
+            "de": "VOOsport World",
+            "en": "VOOsport World"
+        },
+        "description": {
+            "fr": "Le meilleur du sport international.",
+            "nl": "[Le meilleur du sport international.]",
+            "en": "[Le meilleur du sport international.]",
+            "de": "[Le meilleur du sport international.]"
+        },
+        "tagline": {
+            "de": "Genießen Sie die Premier League und die Höhepunkte des internationalen Sports!",
+            "nl": "Beleef de Premier League en de belangrijkste internationale sportieve hoogtepunten.",
+            "fr": "Vivez la Premier League et les plus grands sommets sportifs internationaux.",
+            "en": "Front row seats to the Premier League and the major international sporting events."
+        },
+        "image": "/img/cms/options/voosport.jpg",
+        "image-mobile": "/img/cms/options/voosport-mobile.jpg",
+        "logo": "/img/cms/options/voosport-logo.png",
+        "themes": [{
+            "value": "SPORT_THEME_OPTION",
+            "priority": 1
+        }],
+        "channels": [{
+                "key": "30-VOOSPORT-WORLD1"
+            },
+            {
+                "key": "31-VOOSPORT-WORLD2"
+            },
+            {
+                "key": "32-VOOSPORT-WORLD3"
+            },
+            {
+                "key": "33-ELEVEN"
+            },
+            {
+                "key": "34-ELEVEN-SPORTS"
+            },
+            {
+                "key": "36-SFR_SPORT_2"
+            },
+            {
+                "key": "37-SFR_SPORT_5"
+            },
+            {
+                "key": "38-ABMOTEURS"
+            }
+        ]
+    },
+    {
+        "key": "FOOTJPL",
+        "type": "TV",
+        "priority": 3,
+        "name": {
+            "fr": "VOOsport",
+            "nl": "VOOsport",
+            "de": "VOOsport",
+            "en": "VOOsport"
+        },
+        "tagline": {
+            "de": "Das Angebot, bei dem sich alles um den belgischen Sport dreht.",
+            "nl": "Het 100% Belgische sportaanbod.",
+            "fr": "L'offre sport 100% belge.",
+            "en": "The 100% Belgian sports offer."
+        },
+        "themes": [{
+            "value": "SPORT_THEME_OPTION",
+            "priority": 2
+        }],
+        "channels": [{
+                "key": "41-VOOSPORT1"
+            },
+            {
+                "key": "42-VOOSPORT2"
+            },
+            {
+                "key": "43-VOOSPORT3"
+            },
+            {
+                "key": "44-VOOSPORT4"
+            },
+            {
+                "key": "45-VOOSPORT5"
+            }
+        ],
+        "description": {
+            "fr": "L'offre sport 100% belge.",
+            "nl": "[L'offre sport 100% belge.]",
+            "en": "[L'offre sport 100% belge.]",
+            "de": "[L'offre sport 100% belge.]"
+        }
+    },
+    {
+        "key": "BQTHEMA1",
+        "type": "TV",
+        "priority": 4,
+        "group": "firstInGroup",
+        "name": {
+            "fr": "Family Fun",
+            "nl": "Family Fun",
+            "de": "Family Fun",
+            "en": "Family Fun"
+        },
+        "tagline": {
+            "de": "",
+            "nl": "",
+            "fr": "",
+            "en": ""
+        },
+        "themes": [{
+                "value": "ENFANT_THEME_OPTION",
+                "priority": 1
+            },
+            {
+                "value": "DIV_THEME_OPTION",
+                "priority": 1
+            },
+            {
+                "value": "CINEMA_THEME_OPTION",
+                "priority": 3
+            }
+        ],
+        "channels": [{
+                "key": "97-COMEDIE"
+            },
+            {
+                "key": "95-WARNERTV"
+            },
+            {
+                "key": "96-SYFY"
+            },
+            {
+                "key": "120-TCMCINEMA"
+            },
+            {
+                "key": "122-SUNDANCE"
+            },
+            {
+                "key": "103-E"
+            },
+            {
+                "key": "98-ELLE-GIRL"
+            },
+            {
+                "key": "113-CLUBBINGTV"
+            },
+            {
+                "key": "114-MCM"
+            },
+            {
+                "key": "108-GAMEONE"
+            },
+            {
+                "key": "78-MANGA"
+            },
+            {
+                "key": "99-TF1-SERIES-FILMS"
+            },
+            {
+                "key": "69-TOONAMI"
+            },
+            {
+                "key": "72-DISNEYXD"
+            },
+            {
+                "key": "79-CARTOONNETWORK"
+            },
+            {
+                "key": "74-TELETOON"
+            },
+            {
+                "key": "77-BOING"
+            },
+            {
+                "key": "75-TIJI"
+            },
+            {
+                "key": "76-CANALJ"
+            }
+        ],
+        "description": {
+            "fr": "Pour le fun, tout le monde s'y retrouve ! Humour, people, films, séries, jeux vidéo, dessins animés, chaînes enfants : 19 chaînes exclusives à savourer sans modération.",
+            "nl": "Pure fun, met voor elk wat wils! Humor, people, films, series, videogames, tekenfilms, kinderzenders: 19 exclusieve zenders om onbeperkt van te genieten.",
+            "en": "Everybody’s idea of fun! Humour, stars, films, series, video games, cartoons, kids’ channels: 19 exclusive channels to enjoy without moderation.",
+            "de": "Hier treffen sich alle zum Vergnügen! Humor, People, Filme, Serien, Videogames, Zeichentrickfilme, Kindersendungen: 19 exklusive Sender für Genuss in vollen Zügen."
+        },
+        "image": "/img/cms/options/family_fun.jpg"
+    },
+    {
+        "key": "BQTHEMA2",
+        "type": "TV",
+        "priority": 5,
+        "group": "lastInGroup",
+        "tagline": {
+            "de": "",
+            "nl": "",
+            "fr": "",
+            "en": ""
+        },
+        "themes": [{
+                "value": "DOC_THEME_OPTION",
+                "priority": 1
+            },
+            {
+                "value": "INFO_THEME_OPTION",
+                "priority": 2
+            },
+            {
+                "value": "DIV_THEME_OPTION",
+                "priority": 2
+            }
+        ],
+        "channels": [{
+                "key": "109-VICELAND"
+            },
+            {
+                "key": "92-PLANETE"
+            },
+            {
+                "key": "93-PLANETECI"
+            },
+            {
+                "key": "94-PLANETEAE"
+            },
+            {
+                "key": "83-SCIENCE-VIE-TV"
+            },
+            {
+                "key": "90-NATGEOWILD"
+            },
+            {
+                "key": "86-ANIMAUX"
+            },
+            {
+                "key": "81-HISTOIRE"
+            },
+            {
+                "key": "82-TOUTEHISTOIRE"
+            },
+            {
+                "key": "102-MYCUISINE"
+            },
+            {
+                "key": "84-VOYAGE"
+            },
+            {
+                "key": "89-TREKTV"
+            },
+            {
+                "key": "106-MYZENTV"
+            },
+            {
+                "key": "87-SEASONS"
+            },
+            {
+                "key": "118-DJAZZ"
+            },
+            {
+                "key": "119-MEZZO"
+            },
+            {
+                "key": "111-MTV-HITS"
+            },
+            {
+                "key": "116-TRACEURBAN"
+            },
+            {
+                "key": "115-RFM-TV"
+            },
+            {
+                "key": "146-CNEWS"
+            },
+            {
+                "key": "145-BFM-TV"
+            }
+        ],
+        "name": {
+            "fr": "Discover more",
+            "nl": "Discover more",
+            "de": "Discover more",
+            "en": "Discover more"
+        },
+        "description": {
+            "fr": "Pour rassasier toutes les soifs de découverte.",
+            "nl": "[Pour rassasier toutes les soifs de découverte.]",
+            "en": "[Pour rassasier toutes les soifs de découverte.]",
+            "de": "[Pour rassasier toutes les soifs de découverte.]"
+        },
+        "image": "/img/cms/options/discover_more.jpg"
+    },
+    {
+        "key": "DISNEYCIN",
+        "type": "TV",
+        "priority": 6,
+        "tagline": {
+            "de": "Die märchenhafte Welt der Disney-Filme von gestern und heute.",
+            "nl": "Alle magie van Disney, van gisteren en vandaag.",
+            "fr": "Toute la magie Disney d'hier et d'aujourd'hui.",
+            "en": "All the Disney magic of yesterday and today."
+        },
+        "themes": [{
+                "value": "ENFANT_THEME_OPTION",
+                "priority": 2
+            },
+            {
+                "value": "CINEMA_THEME_OPTION",
+                "priority": 2
+            }
+        ],
+        "channels": [{
+            "key": "73-DISNEYCINEMA-HD"
+        }],
+        "name": {
+            "fr": "Bouquet Disney CINEMA",
+            "nl": "Bouquet Disney CINEMA",
+            "de": "Bouquet Disney CINEMA",
+            "en": "Disney CINEMA bundle"
+        },
+        "description": {
+            "fr": "Toute la magie de Disney, d’hier et d’aujourd’hui.",
+            "nl": "[Toute la magie de Disney, d’hier et d’aujourd’hui.]",
+            "en": "[Toute la magie de Disney, d’hier et d’aujourd’hui.]",
+            "de": "[Toute la magie de Disney, d’hier et d’aujourd’hui.]"
+        }
+    },
+    {
+        "key": "CANALPL",
+        "type": "TV",
+        "priority": 7,
+        "tagline": {
+            "de": "Unbegrenzter Zugriff auf Tausende von Serien, Spiel- und Zeichentrickfilmen.",
+            "nl": "Onbeperkt genieten van duizenden films, series en tekenfilms.",
+            "fr": "Des milliers de films, de séries et de dessins animés en illimité.",
+            "en": "Unlimited access to thousands of films, series and cartoons."
+        },
+        "themes": [{
+                "value": "CINEMA_THEME_OPTION",
+                "priority": 4
+            },
+            {
+                "value": "ENFANT_THEME_OPTION",
+                "priority": 3
+            },
+            {
+                "value": "DIV_THEME_OPTION",
+                "priority": 3
+            }
+        ],
+        "channels": [{
+            "key": "CANALPLAY"
+        }],
+        "name": {
+            "fr": "CANALPLAY",
+            "nl": "CANALPLAY",
+            "de": "CANALPLAY",
+            "en": "CANALPLAY"
+        },
+        "description": {
+            "fr": "Un catalogue pour toute la famille.",
+            "nl": "[Un catalogue pour toute la famille.]",
+            "en": "[Un catalogue pour toute la famille.]",
+            "de": "[Un catalogue pour toute la famille.]"
+        }
+    },
+    {
+        "key": "BQADULT",
+        "type": "TV",
+        "priority": 8,
+        "tagline": {
+            "de": "",
+            "nl": "",
+            "fr": "",
+            "en": ""
+        },
+        "themes": [{
+            "value": "CHARME_THEME_OPTION",
+            "priority": 1
+        }],
+        "channels": [{
+                "key": "125-DORCELXXX"
+            },
+            {
+                "key": "124-DORCELTV"
+            },
+            {
+                "key": "127-HUSTLERTV"
+            },
+            {
+                "key": "126-XXL"
+            },
+            {
+                "key": "123-STARSXXX"
+            }
+        ],
+        "name": {
+            "fr": "Classé X",
+            "nl": "Classé X",
+            "de": "Classé X",
+            "en": "Classé X"
+        },
+        "description": {
+            "fr": "Le meilleur du X français et américain.",
+            "nl": "[Le meilleur du X français et américain.]",
+            "en": "[Le meilleur du X français et américain.]",
+            "de": "[Le meilleur du X français et américain.]"
+        }
+    },
+    {
+        "key": "BEOPTMANX",
+        "type": "TV",
+        "priority": 9,
+        "tagline": {
+            "de": "Erotik-Auslese für Männer, die auf Männer stehen.",
+            "nl": "Een erotische selectie voor mannen die van mannen houden.",
+            "fr": "Une sélection érotique, pour les hommes qui aiment les hommes.",
+            "en": "An erotic selection, for men who like men."
+        },
+        "themes": [{
+            "value": "CHARME_THEME_OPTION",
+            "priority": 2
+        }],
+        "channels": [{
+            "key": "128-MANX"
+        }],
+        "name": {
+            "fr": "Man-X",
+            "nl": "Man-X",
+            "de": "Man-X",
+            "en": "Man-X"
+        },
+        "description": {
+            "fr": "Le meilleur du X gay.",
+            "nl": "[Le meilleur du X gay.]",
+            "en": "[Le meilleur du X gay.]",
+            "de": "[Le meilleur du X gay.]"
+        }
+    },
+    {
+        "key": "ELEVEN",
+        "type": "TV",
+        "priority": 10,
+        "tagline": {
+            "de": "Die größten Fußballstars hautnah und weitere spannende Sportarten.",
+            "nl": "Uw afspraak met de grootste voetbalsterren en fascinerende sporten.",
+            "fr": "Rendez-vous avec les plus grandes stars du foot et des sports passionants.",
+            "en": "The place to see the greatest football stars and exciting sports."
+        },
+        "themes": [{
+            "value": "SPORT_THEME_OPTION",
+            "priority": 3
+        }],
+        "channels": [{
+                "key": "33-ELEVEN"
+            },
+            {
+                "key": "34-ELEVEN-SPORTS"
+            }
+        ],
+        "name": {
+            "fr": "ELEVEN SPORTS",
+            "nl": "ELEVEN SPORTS",
+            "de": "ELEVEN SPORTS",
+            "en": "ELEVEN SPORTS"
+        },
+        "description": {
+            "fr": "Le top de la compétition internationale.",
+            "nl": "[Le top de la compétition internationale.]",
+            "en": "[Le top de la compétition internationale.]",
+            "de": "[Le top de la compétition internationale.]"
+        }
+    },
+    {
+        "key": "SVOD_2020",
+        "type": "TV",
+        "priority": 11,
+        "tagline": {
+            "de": "[Le meilleur des émissions RTL.]",
+            "nl": "[Le meilleur des émissions RTL.]",
+            "fr": "Le meilleur des émissions RTL.",
+            "en": "[Le meilleur des émissions RTL.]"
+        },
+        "themes": [{
+                "value": "CINEMA_THEME_OPTION",
+                "priority": 4
+            },
+            {
+                "value": "DIV_THEME_OPTION",
+                "priority": 5
+            }
+        ],
+        "channels": [{
+                "key": "4-RTL-TVI"
+            },
+            {
+                "key": "5-CLUBRTL"
+            },
+            {
+                "key": "6-PLUGRTL"
+            }
+        ],
+        "name": {
+            "fr": "RTL Sélection",
+            "nl": "RTL Sélection",
+            "de": "RTL Sélection",
+            "en": "RTL Sélection"
+        },
+        "description": {
+            "fr": "Le meilleur de vos 3 chaînes RTL à consommer sans modération.",
+            "nl": "Het beste van uw 3 RTL-zenders om onbeperkt van te genieten.",
+            "en": "The best of your 3 RTL channels to consume without moderation.",
+            "de": "Das Beste Ihrer drei RTL-Sender zum Sattsehen."
+        }
+    },
+    {
+        "key": "SVOD_2021",
+        "type": "TV",
+        "priority": 12,
+        "tagline": {
+            "de": "Unbegrenzter Zugriff auf die RTL-Sender.",
+            "nl": "Onbeperkte toegang tot de beste series van de RTL-zenders.",
+            "fr": "Les meilleures séries des chaînes RTL en accès illimité.",
+            "en": "The best series of RTL channels in unlimited access."
+        },
+        "themes": [{
+            "value": "CINEMA_THEME_OPTION",
+            "priority": 5
+        }],
+        "channels": [{
+            "key": "RTL-SERIE-PASS"
+        }],
+        "name": {
+            "fr": "RTL Séries Pass",
+            "nl": "RTL Séries Pass",
+            "de": "RTL Séries Pass",
+            "en": "RTL Séries Pass"
+        },
+        "description": {
+            "fr": "Le meilleur des séries RTL.",
+            "nl": "[Le meilleur des séries RTL.]",
+            "en": "[Le meilleur des séries RTL.]",
+            "de": "[Le meilleur des séries RTL.]"
+        }
+    },
+    {
+        "tagline": {
+            "de": "Eine große Auswahl an Sendungen für die ganze Familie.",
+            "nl": "Een gevarieerd programma-aanbod voor het hele gezin.",
+            "fr": "Une gamme variée de programmes pour toute la famille.",
+            "en": "A wide range of programmes for the whole family."
+        },
+        "key": "TV_PLUS1",
+        "priority": 6,
+        "themes": [{
+                "value": "CINEMA_THEME_OPTION",
+                "priority": 3
+            },
+            {
+                "value": "SPORT_THEME_OPTION",
+                "priority": 3
+            },
+            {
+                "value": "ENFANT_THEME_OPTION",
+                "priority": 3
+            },
+            {
+                "value": "DOC_THEME_OPTION",
+                "priority": 2
+            },
+            {
+                "value": "DIV_THEME_OPTION",
+                "priority": 4
+            },
+            {
+                "value": "INFO_THEME_OPTION",
+                "priority": 2
+            }
+        ],
+        "channels": [{
+                "key": "38-ABMOTEURS"
+            },
+            {
+                "key": "36-SFR_SPORT_2"
+            },
+            {
+                "key": "72-DISNEYXD"
+            },
+            {
+                "key": "74-TELETOON"
+            },
+            {
+                "key": "79-CARTOONNETWORK"
+            },
+            {
+                "key": "81-HISTOIRE"
+            },
+            {
+                "key": "83-SCIENCE-VIE-TV"
+            },
+            {
+                "key": "92-PLANETE"
+            },
+            {
+                "key": "96-SYFY"
+            },
+            {
+                "key": "97-COMEDIE"
+            },
+            {
+                "key": "99-TF1-SERIES-FILMS"
+            },
+            {
+                "key": "103-E"
+            },
+            {
+                "key": "114-MCM"
+            },
+            {
+                "key": "145-BFM-TV"
+            },
+            {
+                "key": "146-CNEWS"
+            },
+            {
+                "key": "98-ELLE-GIRL"
+            }
+        ],
+        "name": {
+            "fr": "Bouquet Panorama",
+            "nl": "Bouquet Panorama",
+            "de": "Bouquet Panorama",
+            "en": "Panorama bundle"
+        },
+        "description": {
+            "fr": "16 chaînes thématiques pour tous les goûts et toute la famille avec du sport, des documentaires, du divertissement et des programmes pour enfants.",
+            "nl": "16 themazenders voor alle smaken en voor het hele gezin met sport, documentaires, ontspanning en kinderprogramma’s.",
+            "en": "16 special-interest channels for all tastes and the whole family with sports, documentaries, entertainment and children's programmes.",
+            "de": "16 Themensender für jeden Geschmack und die ganze Familie mit Sport, Dokumentarfilmen, Unterhaltung und Kindersendungen."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Ein Muss für alle Kinofans.",
+            "nl": "De onmisbare optie voor echte filmfans.",
+            "fr": "L'option incontournable pour les amateurs du 7ème art.",
+            "en": "The must-have option for film buffs."
+        },
+        "key": "TV_CINEMA",
+        "priority": 7,
+        "themes": [{
+                "value": "CINEMA_THEME_OPTION",
+                "priority": 4
+            },
+            {
+                "value": "CHARME_THEME_OPTION",
+                "priority": 3
+            }
+        ],
+        "channels": [{
+                "key": "25-CINEPREMIER"
+            },
+            {
+                "key": "26-CINEFRISSON"
+            },
+            {
+                "key": "27-CINECLASSIC"
+            },
+            {
+                "key": "522-TCMCINEMA-HD"
+            },
+            {
+                "key": "122-SUNDANCE"
+            },
+            {
+                "key": "124-DORCELTV"
+            }
+        ],
+        "name": {
+            "fr": "Option CinéPass",
+            "nl": "Optie CinéPass",
+            "de": "Option CinéPass",
+            "en": "CinéPass option"
+        },
+        "description": {
+            "fr": "6 chaînes pour les amateurs du 7ème art avec des classiques, des thrillers, des grands succès du box office et des programmes pour adultes.",
+            "nl": "Zes uitgelezen zenders om te genieten van de beste films (klassiekers, thrillers, kaskrakers …) en van programma's voor volwassenen.",
+            "en": "6 channels for film buffs with all the classics, thrillers, blockbusters and adult programmes.",
+            "de": "6 Sender für Kinofans mit Klassikern, Thrillern, Blockbustern und Erotik."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Das adrenalintreibende Sportbouquet!",
+            "nl": "Het pakket dat de adrenaline doet stromen!",
+            "fr": "Le bouquet qui carbure à l'adrénaline !",
+            "en": "The adrenalin-filled bouquet!"
+        },
+        "key": "BEBQSPORT",
+        "priority": 8,
+        "themes": [{
+            "value": "SPORT_THEME_OPTION",
+            "priority": 4
+        }],
+        "channels": [{
+                "key": "38-ABMOTEURS"
+            },
+            {
+                "key": "27-NAUTICALCHANNEL"
+            },
+            {
+                "key": "39-MOTORSTV"
+            },
+            {
+                "key": "36-SFR_SPORT_2"
+            },
+            {
+                "key": "37-SFR_SPORT_5"
+            }
+        ],
+        "name": {
+            "fr": "Be Bouquets Sport",
+            "nl": "Be Bouquets Sport",
+            "de": "Be Bouquet Sport",
+            "en": "Be Bouquets Sport"
+        },
+        "description": {
+            "fr": "Boosté par 5 chaînes et plus de 100 disciplines, notre Bouquet Sport carbure à l'adrénaline !",
+            "nl": "Ons Sportpakket doet de adrenaline stromen, met vijf zenders en meer dan 100 disciplines!",
+            "en": "Boosted by 5 chains and more than 100 disciplines, our Sport Bundle runs on adrenalin!",
+            "de": "Mit 5 Sendern und über 100 Sportarten hält unser Sport-Bouquet Ihren Adrenalinspiegel hoch!"
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Dem Alltag entfliehen und eine Menge lernen, bequem vom Sofa aus.",
+            "nl": "Om vanuit uw luie zetel even aan alles te ontsnappen en bij te leren.",
+            "fr": "Pour s'évader et s'instruire sans quitter son canapé.",
+            "en": "For escapism and education from the comfort of your sofa."
+        },
+        "key": "BEBQDOC",
+        "priority": 9,
+        "themes": [{
+            "value": "DOC_THEME_OPTION",
+            "priority": 1
+        }],
+        "channels": [{
+                "key": "81-HISTOIRE"
+            },
+            {
+                "key": "90-NATGEOWILD"
+            },
+            {
+                "key": "83-SCIENCE-VIE-TV"
+            },
+            {
+                "key": "86-ANIMAUX"
+            },
+            {
+                "key": "84-VOYAGE"
+            },
+            {
+                "key": "87-SEASONS"
+            },
+            {
+                "key": "93-PLANETECI"
+            },
+            {
+                "key": "92-PLANETE"
+            },
+            {
+                "key": "94-PLANETEAE"
+            },
+            {
+                "key": "82-TOUTEHISTOIRE"
+            }
+        ],
+        "name": {
+            "fr": "Be Bouquet Documentaires",
+            "nl": "Be Bouquet Documentaires",
+            "de": "Be Bouquet Documentaires",
+            "en": "Be Bouquet Documentaires"
+        },
+        "description": {
+            "fr": "S'évader et s'instruire sans bouger : les 10 chaines de ce bouquet jouent vos guides en classe confort.",
+            "nl": "Even aan alles ontsnappen en bijleren zonder te hoeven te bewegen: de tien zenders zijn uw gidsen in eerste klasse.",
+            "en": "Escapism and education from the comfort of your sofa: the 10 channels of this bundle will serve as your guides on a first class journey.",
+            "de": "Dem Alltag entfliehen und eine Menge lernen: Die 10 Sender dieses Bouquets nehmen Sie mit auf die Reise – in der 1. Klasse, versteht sich."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Ideal, um keine angesagte Serie mehr zu verpassen und bei allen wichtigen Themen mitreden zu können.",
+            "nl": "Om actuele series en thema’s optimaal te volgen.",
+            "fr": "Pour suivre au mieux les séries et les sujets qui font l'actualité.",
+            "en": "The best way to keep up with the series and issues on everyone’s lips."
+        },
+        "key": "BEBQDIV",
+        "priority": 10,
+        "themes": [{
+                "value": "DIV_THEME_OPTION",
+                "priority": 1
+            },
+            {
+                "value": "CINEMA_THEME_OPTION",
+                "priority": 5
+            }
+        ],
+        "channels": [{
+                "key": "97-COMEDIE"
+            },
+            {
+                "key": "99-TF1-SERIES-FILMS"
+            },
+            {
+                "key": "101-VIVOLTA"
+            },
+            {
+                "key": "103-FASHIONTV"
+            },
+            {
+                "key": "104-MELODY"
+            },
+            {
+                "key": "103-E"
+            },
+            {
+                "key": "115-RFM-TV"
+            },
+            {
+                "key": "119-MEZZO"
+            },
+            {
+                "key": "120-TCMCINEMA"
+            },
+            {
+                "key": "98-ELLE-GIRL"
+            }
+        ],
+        "name": {
+            "fr": "Be Bouquet Divertissement",
+            "nl": "Be Bouquet Divertissement",
+            "de": "Be Bouquet Divertissement",
+            "en": "Be Bouquet Divertissement"
+        },
+        "description": {
+            "fr": "Musique, mode, ciné, séries ou humour… Quelles que soient vos envies, il y aura toujours une de ces 10 chaînes pour vous divertir !",
+            "nl": "Muziek, mode, films, series of humor … Waar u ook zin in hebt, u vindt altijd ontspanning op een van deze tien zenders!",
+            "en": "Music, fashion, films, series or humour ... Whatever you feel like, one of these 10 channels will always be there to entertain you!",
+            "de": "Ob Musik, Mode, Kino, Serien oder Comedy … Dieses Paket aus 10 Sendern sorgt bei jeder Fernsehlaune für beste Unterhaltung!"
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Lernspaß und Unterhaltung, die Ihre Kids nicht abstumpft.",
+            "nl": "Leerrijk, amusant ... en slim.",
+            "fr": "Pour éduquer et divertir… Sans abrutir.",
+            "en": "To educate and entertain ... Without insulting anyone’s intelligence."
+        },
+        "key": "BEBQENF",
+        "priority": 11,
+        "themes": [{
+            "value": "ENFANT_THEME_OPTION",
+            "priority": 4
+        }],
+        "channels": [{
+                "key": "72-DISNEYXD"
+            },
+            {
+                "key": "74-TELETOON"
+            },
+            {
+                "key": "75-TIJI"
+            },
+            {
+                "key": "76-CANALJ"
+            },
+            {
+                "key": "77-BOING"
+            },
+            {
+                "key": "79-CARTOONNETWORK"
+            }
+        ],
+        "name": {
+            "fr": "Be Bouquet Enfant",
+            "nl": "Be Bouquet Enfant",
+            "de": "Be Bouquet Enfant",
+            "en": "Be Bouquet Enfant"
+        },
+        "description": {
+            "fr": "Pour éduquer et divertir vos petites canailles sans les abrutir, voici 6 chaînes à leur mesure.",
+            "nl": "Zes leerrijke, amusante en slimme zenders voor de kinderen.",
+            "en": "To educate and entertain your little scoundrels without insulting their intelligence, here are 6 channels tailored to their needs",
+            "de": "Lernspaß und Unterhaltung für Ihre Kids: 6 Sender mit Qualitätsprogrammen, die nicht abstumpfen."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Abgedrehte Unterhaltung und krasse Bilder für alle, die noch nicht ganz erwachsen sind (oder es einfach nicht werden wollen).",
+            "nl": "De amusante en pakkende selectie voor eeuwige pubers.",
+            "fr": "La sélection fun et choc pour les éternels ados.",
+            "en": "The fun and sensational selection for overgrown teenagers."
+        },
+        "key": "BEBQCOOL",
+        "priority": 12,
+        "themes": [{
+            "value": "DIV_THEME_OPTION",
+            "priority": 6
+        }],
+        "channels": [{
+                "key": "29-EXTREMESPORTSCHANNEL"
+            },
+            {
+                "key": "94-PLANETEAE"
+            },
+            {
+                "key": "106-CBSREALITY"
+            },
+            {
+                "key": "108-GAMEONE"
+            },
+            {
+                "key": "111-VH1-CLASSIC"
+            },
+            {
+                "key": "111-MTV-HITS"
+            },
+            {
+                "key": "116-MCMTOP"
+            },
+            {
+                "key": "116-TRACEURBAN"
+            },
+            {
+                "key": "117-M6MUSIC"
+            }
+        ],
+        "name": {
+            "fr": "Be Bouquet Cool",
+            "nl": "Be Bouquet Cool",
+            "de": "Be Bouquet Cool",
+            "en": "Be Bouquet Cool"
+        },
+        "description": {
+            "fr": "9 chaînes en mode fun, musique, images-chocs, sports extrêmes, jeux vidéo, télé-réalité pour les éternels ados.",
+            "nl": "Negen zenders met amusement, muziek, pakkende beelden, extreme sporten, videospellen en reality-tv voor eeuwige pubers.",
+            "en": "9 channels revolving around fun, music, sensational images, extreme sports, video games, reality TV for overgrown teenagers.",
+            "de": "9 Sender voller Fun, Mode, krassen Bildern, Extremsport, Videospielen und Reality-Shows für alle, die noch nicht ganz erwachsen sind (oder es einfach nicht werden wollen)."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Ein bunter Senderstrauß, der jeden Tag zum Blühen bringt.",
+            "nl": "Een gevarieerde selectie van zes zenders om uw dagen op te fleuren.",
+            "fr": "Une sélection variée pour fleurir vos journées.",
+            "en": "A varied selection to make your days blossom."
+        },
+        "key": "BEBQSEL",
+        "priority": 13,
+        "themes": [{
+                "value": "ENFANT_THEME_OPTION",
+                "priority": 5
+            },
+            {
+                "value": "DIV_THEME_OPTION",
+                "priority": 7
+            },
+            {
+                "value": "SPORT_THEME_OPTION",
+                "priority": 7
+            }
+        ],
+        "channels": [{
+                "key": "76-CANALJ"
+            },
+            {
+                "key": "83-SCIENCE-VIE-TV"
+            },
+            {
+                "key": "103-E"
+            },
+            {
+                "key": "117-M6MUSIC"
+            }
+        ],
+        "name": {
+            "fr": "Be Bouquet Sélection",
+            "nl": "Be Bouquet Sélection",
+            "de": "Be Bouquet Sélection",
+            "en": "Be Bouquet Sélection"
+        },
+        "description": {
+            "fr": "Une sélection de 5 chaînes pour fleurir vos journées. Nous invitons nos abonnés à ne pas arroser la télécommande.",
+            "nl": "Een selectie van vijf zenders om uw dagen op te fleuren. We raden onze abonnees aan om de afstandsbediening geen water te geven!",
+            "en": "A selection of 6 channels to make your days blossom. We invite our subscribers not to water the remote control.",
+            "de": "Ein bunter Strauß aus 5 Sendern, der jeden Tag zum Blühen bringt. Denken Sie nur daran, nicht die Fernbedienung zu begießen!"
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Verwandeln Sie Ihr Wohnzimmer in Ihren ganz privaten Kinosaal.",
+            "nl": "Beleef in uw woonkamer een echte bioscoopervaring!",
+            "fr": "Transformez votre salon en véritable salle de projection.",
+            "en": "Turn your living room into a movie theatre!"
+        },
+        "key": "BEOPTCINE",
+        "priority": 14,
+        "themes": [{
+            "value": "CINEMA_THEME_OPTION",
+            "priority": 6
+        }],
+        "channels": [{
+                "key": "96-SYFY"
+            },
+            {
+                "key": "25-CINEPREMIER"
+            },
+            {
+                "key": "26-CINEFRISSON"
+            },
+            {
+                "key": "27-CINECLASSIC"
+            }
+        ],
+        "name": {
+            "fr": "Be Option Cinéma",
+            "nl": "Be Optie Cinéma",
+            "de": "Be Option Cinéma",
+            "en": "Be Option Cinéma"
+        },
+        "description": {
+            "fr": "Grand classique ou film récent ? L’Option Cinéma déroule tous les génériques rien que pour vous. Transformez votre salon en véritable salle de projection !",
+            "nl": "Grote klassiekers of de nieuwste films? Met de Optie Cinéma hebt u de bioscoopzaal voor u alleen. Beleef in uw woonkamer een echte bioscoopervaring!",
+            "en": "A great classic or a recent blockbuster? The Cinema option gives film buffs the home cinema of their dreams. Turn your living room into a movie theatre!",
+            "de": "Von alten Klassikern bis zu den neuesten Streifen: Diese Option legt Ihnen die ganze Welt des Kinos zu Füßen. Verwandeln Sie Ihr Wohnzimmer in Ihren ganz privaten Kinosaal."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Das Weltgeschehen live und in Bildern.",
+            "nl": "Helemaal mee met de actualiteit, rechtstreeks in beeld.",
+            "fr": "Le fil de l'actualité, en direct et en images.",
+            "en": "How to keep up with all the latest news in real time?"
+        },
+        "key": "BEOPTINF",
+        "priority": 15,
+        "themes": [{
+            "value": "INFO_THEME_OPTION",
+            "priority": 1
+        }],
+        "channels": [{
+                "key": "145-BFM-TV"
+            },
+            {
+                "key": "146-CNEWS"
+            },
+            {
+                "key": "147-BLOOMBERG"
+            }
+        ],
+        "name": {
+            "fr": "Be Option Infos",
+            "nl": "Be Optie Infos",
+            "de": "Be Option Infos",
+            "en": "Be Option Infos"
+        },
+        "description": {
+            "fr": "Suivez en direct le fil de l’actualité : journaux, reportages et émissions défilent en continu pour vous livrer l'état des lieux le plus à jour de la planète.",
+            "nl": "Zorg ervoor dat u helemaal mee bent met de actualiteit: doorlopende nieuwsberichten, reportages en uitzendingen om op de hoogte te blijven van wat er reilt en zeilt in de wereld.",
+            "en": "Keep abreast of what’s going on in the world as it happens with news bulletins, reports and programmes.",
+            "de": "Halten Sie sich live auf dem Laufenden: Nachrichten, Reportagen und weitere Sendungen mit den aktuellsten Bildern zum Weltgeschehen."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Prickelnde Erotik aus den angesagtesten unter den einschlägigen amerikanischen Studios.",
+            "nl": "Een opwindend erotisch aanbod geïnspireerd op de gespecialiseerde Amerikaanse studio's.",
+            "fr": "Une offre adulte sulfureuse alimentée par les studios américains les plus en vue.",
+            "en": "A sulphurous adult offer powered by the most prominent American studios."
+        },
+        "key": "BEOPTCHAR",
+        "priority": 16,
+        "themes": [{
+            "value": "CHARME_THEME_OPTION",
+            "priority": 1
+        }],
+        "channels": [{
+            "key": "127-HUSTLERTV"
+        }],
+        "name": {
+            "fr": "Be Option Charme",
+            "nl": "Be Optie Charme",
+            "de": "Be Option Charme",
+            "en": "Be Option Charme"
+        },
+        "description": {
+            "fr": "Calquée sur le modèle créé par le sulfureux producteur Larry Flynt, Hustler TV propose une offre adulte exclusive tirée des catalogues des studios américains les plus en vue en la matière.",
+            "nl": "Hustler TV, geïnspireerd door het opwindende blad van Larry Flynt, pakt uit met een exclusief erotisch aanbod uit de catalogussen van de gespecialiseerde Amerikaanse studio's.",
+            "en": "Inspired by the model created by the scandalous producer Larry Flynt, Hustler TV offers an exclusive adult programme, drawn from the catalogues of the hottest American studios.",
+            "de": "Nach dem Vorbild des pikanten Magazins von Larry Flynt bietet Hustler TV exklusive Erotik aus den Katalogen der angesagtesten unter den einschlägigen amerikanischen Studios."
+        },
+        "type": "TV"
+    },
+    {
+        "tagline": {
+            "de": "Jagd, Action, japanischer Trickfilm und Erotik: Eine bunte Mischung fesselnder Unterhaltung.",
+            "nl": "Jacht, actie, Japanse animatie en erotiek : 4 zenders die barsten van emotie.",
+            "fr": "Chasse, action, japanim' et érotisme… Un mélange riches en émotions fortes.",
+            "en": "Hunting, action, japanimation and eroticism ... A sensational combination."
+        },
+        "key": "BEOPTSENS",
+        "priority": 17,
+        "themes": [{
+            "value": "CHARME_THEME_OPTION",
+            "priority": 2
+        }],
+        "channels": [{
+                "key": "78-MANGA"
+            },
+            {
+                "key": "85-CHASSEPECHE"
+            },
+            {
+                "key": "121-ACTION"
+            },
+            {
+                "key": "126-XXL"
+            }
+        ],
+        "name": {
+            "fr": "Be Option Sensation",
+            "nl": "Be Optie Sensation",
+            "de": "Be Option Sensation",
+            "en": "Be Option Sensation"
+        },
+        "description": {
+            "fr": "Une partie de chasse, une touche d’érotisme, un cran d’action et un trait de japanimation, soit 4 chaînes riches en émotions fortes.",
+            "nl": "Een portie jacht, wat erotiek, een tikje actie en een dosis Japanse animatie: vier zenders die barsten van emotie.",
+            "en": "A hunting trip, a touch of eroticism, a good dose of action and a dash of japanimation, four channels for those looking for strong sensations.",
+            "de": "Hier eine spannungsgeladene Jagd, dort ein Hauch Erotik, dazu eine Prise Action und ein guter Schuss japanische Trickfilmkunst: 4 Sender voller fesselnder Unterhaltung."
+        },
+        "type": "TV"
+    }
+]

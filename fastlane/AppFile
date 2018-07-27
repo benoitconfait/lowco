@@ -1,0 +1,5 @@
+app_identifier "be.voo.myvoo"       # The bundle identifier of your app 
+ 
+apple_dev_portal_id "GM-BETV-WEB-TECH@group.tecteo.be"  # Apple Developer Account 
+ 
+team_id 'P2U9VS7XCR' # Developer Portal Team ID 

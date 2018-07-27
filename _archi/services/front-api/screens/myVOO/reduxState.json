@@ -1,0 +1,317 @@
+{
+  "accountInfo": {
+    "login": "string",
+    "clientNumber": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "email": "string",
+    "homePhone": "string",
+    "billingAddress": {
+      "streetName": "string",
+      "houseNumber": "string",
+      "boxNumber": "string",
+      "zipCode": "string",
+      "city": "string"
+    },
+    "mobileNumber": "string",
+    "contactEmail": "string"
+  },
+  "billing": {
+    "balanceOwed": "number",
+    "summary": {
+      "pack": "number",
+      "mobile": "number",
+      "tv": "number",
+      "other": "number"
+    },
+    "invoices": [
+      {
+        "type": "Mobile || Pack || Other",
+        "createdDate": "date",
+        "dueDate": "date",
+        "paymentStatus": "toBePaid || unPaid || Paid",
+        "cost": "number",
+        "documentId": "string",
+        "documentReference": "string"
+      }
+    ]
+  },
+  "portfolio": {
+    "fix": {
+      "00218282710001": {
+        "packId": "string",
+        "usageAddress": {
+          "streetName": "string",
+          "houseNumber": "string",
+          "boxNumber": "string",
+          "zipCode": "string",
+          "city": "string"
+        },
+        "tv": {
+          "options": [
+            {
+              "key": "string",
+              "price": "number",
+              "status": "string"
+            }
+          ],
+          "parameters": {
+            "parentalControlMinAgeRating": "number",
+            "parentalControlPinCode": "number",
+            "vodPurchaseCode": "number"
+          },
+          "freeServices": [
+            {
+              "key": "string",
+              "status": "string"
+            }
+          ]
+        },
+        "homePhone": {
+          "023544545": {
+            "options": [
+              {
+                "key": "string",
+                "price": "number",
+                "status": "string"
+              }
+            ],
+            "parameters": [
+              {
+                "key": "string",
+                "status": "string"
+              }
+            ]
+          }
+        },
+        "net": {
+          "options": [
+            {
+              "key": "string",
+              "price": "number",
+              "active": "true || false"
+            }
+          ],
+          "freeServices": [
+            {
+              "key": "string",
+              "active": "true|| false"
+            }
+          ]
+        }
+      }
+    },
+    "mobile": {
+      "0471252525": {
+        "subscriptionId": "string",
+        "tariffPlan": "string",
+        "monthlyCost": "number",
+        "simCardNumber": "string",
+        "ownerFirstName": "string",
+        "ownerLastName": "string",
+        "options": [
+          {
+            "key": "string",
+            "price": "number",
+            "active": "true || false"
+          }
+        ],
+        "parameters": [
+          {
+            "key": "string",
+            "activate": "true || false"
+          }
+        ],
+        "freeServices": [
+          {
+            "key": "string",
+            "active": "true || false",
+            "value": "number || null"
+          }
+        ]
+      }
+    }
+  },
+  "mobile": {
+    "0471252525": {
+      "msisdn": "number",
+      "currentBalance": "number",
+      "options": [
+        {
+          "optionId": "EUROPE",
+          "usage": {
+            "voice": {
+              "currentValue": "number",
+              "maxValue": "number || null"
+            },
+            "sms": {
+              "currentValue": "number",
+              "maxValue": "number || null"
+            }
+          }
+        }
+      ],
+      "daily": [
+        {
+          "date": "date",
+          "cost": "number",
+          "items": [
+            {
+              "type": "voice",
+              "phoneNumber": "string",
+              "offPlan": "true || false",
+              "time": "time",
+              "cost": "number || null"
+            },
+            {
+              "type": "sms",
+              "phoneNumber": "string",
+              "offPlan": "true || false",
+              "time": "time",
+              "cost": "number || null"
+            },
+            {
+              "type": "data",
+              "dataUsage": "string",
+              "unit": "string",
+              "offPlan": "true || false",
+              "time": "time",
+              "cost": "number || null"
+            }
+          ]
+        }
+      ],
+      "outOfBundle": {
+        "totalUsage": "number",
+        "budget": "number || null"
+      },
+      "voice": {
+        "currentValue": "number",
+        "maxValue": "number || null",
+        "outOfBundle": {
+          "totalCost": "number",
+          "national": {
+            "cost": "number",
+            "minutes": "number"
+          },
+          "international": {
+            "cost": "number",
+            "minutes": "number"
+          }
+        }
+      },
+      "sms": {
+        "currentValue": "number",
+        "maxValue": "number || null",
+        "outOfBundle": {
+          "totalCost": "number",
+          "national": {
+            "cost": "number",
+            "sms": "number"
+          },
+          "international": {
+            "cost": "number",
+            "sms": "number"
+          }
+        }
+      },
+      "data": {
+        "currentValue": "number",
+        "maxValue": "number || null",
+        "outOfBundle": {
+          "totalCost": "number",
+          "national": {
+            "cost": "number",
+            "dataUsage": "number",
+            "unit": "string"
+          },
+          "international": {
+            "cost": "number",
+            "dataUsage": "number",
+            "unit": "string"
+          }
+        }
+      }
+    }
+  },
+  "internet": {
+    "00218282710001": {
+      "currentValue": "number",
+      "maxValue": "number || null",
+      "daily": {
+        "201712": {
+          "year": "number",
+          "month": "number",
+          "currentValue": "number",
+          "dailyUsage": [
+            {
+              "day": "number",
+              "value": "number"
+            }
+          ]
+        }
+      },
+      "monthly": [
+        {
+          "month": "number",
+          "value": "number"
+        }
+      ]
+    }
+  },
+  "homePhone": {
+    "23544545": {
+      "sap14": "string",
+      "acbisNumber": "string",
+      "options": [
+        {
+          "key": "string",
+          "currentValue": "number",
+          "maxValue": "number || null"
+        }
+      ],
+      "totalDuration": "number",
+      "outOfBundle": {
+        "balanceOwed": "number",
+        "national": {
+          "cost": "number",
+          "minutes": "number"
+        },
+        "international": {
+          "cost": "number",
+          "minutes": "number"
+        }
+      },
+      "callDetails": [
+        {
+          "date": "date",
+          "cost": "number",
+          "items": [
+            {
+              "type": "mobile-nat || mobile-int || fix-nat || fix-int",
+              "phoneNumber": "string",
+              "outOfBundle": "true || false",
+              "time": "time",
+              "duration": "number",
+              "cost": "number || null"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vod": {
+    "00218282710001": {
+      "month": "number",
+      "year": "number",
+      "totalCost": "number",
+      "items": [
+        {
+          "day": "number",
+          "name": "string",
+          "cost": "number"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+before_all do
+   update_fastlane
+   sh("yarn install")
+   sh("rm -rf ../build/ && tsc")
+   #sh("yarn test")
+end
+
+platform :ios do
+  # iOS Lanes
+  desc "Fetch certificates and provisioning profiles"
+   lane :code_sign do
+      cert(username:"GM-BETV-WEB-TECH@group.tecteo.be", development: true) # get certificates for GM-BETV-WEB-TECH@group.tecteo.be
+      sh("fastlane sigh --development") # sign the app the certificate and the corresponding provisionning profile
+   end
+  desc "Build the iOS application."
+   private_lane :build do 
+       code_sign
+       increment_build_number(xcodeproj: "./ios/lowco.xcodeproj", build_number: ENV["BUILD_NUMBER"] )  # incrementing ios build number
+       increment_version_number( # incrementing ios version number
+        version_number: ENV["MAJOR_VERSION"] + "." + ENV["MINOR_VERSION"] + "." + ENV["PATCH_VERSION"], 
+        xcodeproj: "./ios/lowco.xcodeproj" 
+        )
+        gym( 
+           scheme: 'lowco', 
+           clean: true, 
+           configuration: 'Release', 
+           build_path: './ios/build', 
+           export_method: 'development', 
+           archive_path: './ios/build/lowco.xcarchive', 
+           project: './ios/lowco.xcodeproj', 
+           output_directory: './ios/build' 
+       ) 
+   end
+
+   desc "Build test"
+   lane :test do
+       ENV["ENVFILE"] = ".env.test"
+       build
+   end
+
+   desc "Build staging"
+   lane :staging do
+       ENV["ENVFILE"] = ".env.staging"
+       build
+   end
+
+   desc "Build production"
+   lane :production do
+       ENV["ENVFILE"] = ".env.production"
+       #build : TBD 
+   end
+end
+
+platform :android do
+   # Android Lanes
+    desc 'Build the Android application.'
+    private_lane :build do
+        sh("cp react.gradle ../node_modules/react-native")
+        gradle(task: 'clean', project_dir: 'android/')
+        gradle(task: 'assemble', build_type: 'Release', project_dir: 'android/',  properties: {
+            "versionCode" => ENV["BUILD_NUMBER"],
+            "versionName" => ENV["MAJOR_VERSION"] + "." + ENV["MINOR_VERSION"] + "." + ENV["PATCH_VERSION"] 
+        })
+    end
+
+   desc "Build test"
+   lane :test do
+       ENV["ENVFILE"] = ".env.test"
+       build
+   end
+
+   desc "Build staging"
+   lane :staging do
+       ENV["ENVFILE"] = ".env.staging"
+       build
+   end
+
+   desc "Build production"
+   lane :production do
+       ENV["ENVFILE"] = ".env.production"
+       #build : TBD
+   end
+end
