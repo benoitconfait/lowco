@@ -1,5 +1,5 @@
-declare namespace VOO.Mobile.App.Models {
-    class PaymentBalance implements VOO.Domain.Views.Billing.PaymentBalance {
+declare namespace Lowco.Models {
+    class PaymentBalance implements Lowco.Domain.Views.Billing.PaymentBalance {
         hasMobileAccountBalance: boolean;
         isAvailable: boolean;
         isOneBill: boolean;

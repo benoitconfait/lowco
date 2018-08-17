@@ -19,7 +19,7 @@ import {
 import {
   VodUsageActionTypes
 } from '../../actionTypes/vodUsageActionTypes';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 describe('reducers/LastSuccessfulApiCallsTimeReducer', () => {
   const RealDate = Date;

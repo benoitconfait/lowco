@@ -3,7 +3,7 @@ import {
 } from '../actionTypes/connectionInfoActionTypes';
 import BaseAction from '../actions/BaseAction';
 import _ from 'lodash';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export type State = {
     connectionType: string;

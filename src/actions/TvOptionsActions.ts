@@ -1,6 +1,6 @@
 import * as tvOptionsActionTypes from '../actionTypes/tvOptionsActionTypes';
 import BaseAction from './BaseAction';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchTvOptions = (): BaseAction<tvOptionsActionTypes.TvOptionsActionTypes.FETCH_TV_OPTIONS, null> =>
     <BaseAction<tvOptionsActionTypes.TvOptionsActionTypes.FETCH_TV_OPTIONS, null>>{

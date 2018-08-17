@@ -1,7 +1,7 @@
 import * as customerOptionsActionTypes from '../actionTypes/customerOptionsActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import { OptionActivationOrigins } from '../actionTypes/customerOptionsActionTypes';
 
 export interface OptionActivationPayload {

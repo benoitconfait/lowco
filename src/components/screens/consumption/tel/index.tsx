@@ -6,7 +6,7 @@ import TelConsumption from './TelConsumption';
 
 import { Dispatch } from 'redux';
 import { RootState } from '../../../../reducers';
-import Models =  VOO.Mobile.App.Models;
+import Models =  Lowco.Models;
 
 type ConnectedState = {
 }

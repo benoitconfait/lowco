@@ -1,7 +1,7 @@
 import * as vodUsageActionTypes from '../actionTypes/vodUsageActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchVodUsage = (): BaseAction<vodUsageActionTypes.VodUsageActionTypes.FETCH_VOD_USAGE, null> =>
     <BaseAction<vodUsageActionTypes.VodUsageActionTypes.FETCH_VOD_USAGE, null>>{

@@ -2,8 +2,8 @@ import CustomerReducer, { State, INITIAL_STATE } from '../CustomerReducer';
 import BaseAction from '../../actions/BaseAction';
 import { CustomerActionTypes } from '../../actionTypes/customerActionTypes';
 import { Reducer } from 'redux-testkit';
-import Models = VOO.Mobile.App.Models;
-import AddressType = VOO.Domain.Views.Customer.AddressType;
+import Models = Lowco.Models;
+import AddressType = Lowco.Domain.Views.Customer.AddressType;
 
 describe('reducers/CustomerReducer', () => {
 
@@ -27,7 +27,7 @@ describe('reducers/CustomerReducer', () => {
       emailAddress: 'john.doe@gmail.com',
       firstname: 'John',
       gsmNumber: '+32477889944',
-      invoiceDeliveryType: VOO.Domain.Views.Billing.Account.invoiceDeliveryType.Nothing,
+      invoiceDeliveryType: Lowco.Domain.Views.Billing.Account.invoiceDeliveryType.Nothing,
       isEligibleForEBilling: false,
       isEligibleForFixDomiciliation: false,
       isSMSNotificationRequired: false,

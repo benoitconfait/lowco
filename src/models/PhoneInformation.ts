@@ -1,5 +1,5 @@
-declare namespace VOO.Mobile.App.Models {
-    class Phone implements VOO.Domain.Views.Phone.Phone {
+declare namespace Lowco.Models {
+    class Phone implements Lowco.Domain.Views.Phone.Phone {
         acbisNumber: string;
         displayId: string;
         displayName: string;
@@ -15,7 +15,7 @@ declare namespace VOO.Mobile.App.Models {
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }
 
-    class PhonesCollection implements VOO.Domain.Views.Phone.PhoneCollection {
+    class PhonesCollection implements Lowco.Domain.Views.Phone.PhoneCollection {
         items: Domain.Views.Phone.Phone[];
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }

@@ -10,7 +10,7 @@ import { getSMSUsageTexts, getVoiceUsageTexts } from '../../../../helpers/usageT
 import { scale } from '../../../../helpers/scaleHelper';
 import Icon = VOO.Mobile.App.Enums.Icon;
 import LineColumnType = VOO.Mobile.App.Enums.LineColumnType;
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 interface Props {
     europeUsage?: Models.EuropeUsage | null,

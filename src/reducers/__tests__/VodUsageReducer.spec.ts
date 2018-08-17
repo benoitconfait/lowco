@@ -3,7 +3,7 @@ import { Reducer } from 'redux-testkit';
 import VodUsageReducer, { State, INITIAL_STATE } from '../VodUsageReducer';
 import BaseAction from '../../actions/BaseAction';
 import { VodUsageActionTypes } from '../../actionTypes/vodUsageActionTypes';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 describe('reducers/VodUsageReducer', () => {
 

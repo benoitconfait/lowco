@@ -5,7 +5,7 @@ import { View, ScrollView, StyleSheet, Text, ActivityIndicator, RefreshControl, 
 import { Dispatch } from 'redux';
 import translate from '../../../../../lang/translate';
 import { RootState } from '../../../../../reducers';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import numeral from '../../../../../helpers/numberFormatter';
 import { scale } from '../../../../../helpers/scaleHelper';
 import Communications from 'react-native-communications';

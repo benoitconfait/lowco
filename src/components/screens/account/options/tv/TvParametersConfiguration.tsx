@@ -7,7 +7,7 @@ import TextHeader from '../../../../common/TextHeader';
 import { Dispatch } from 'redux';
 import translate from '../../../../../lang/translate';
 import { RootState } from '../../../../../reducers';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import { scale } from '../../../../../helpers/scaleHelper';
 import Communications from 'react-native-communications';
 import * as tvOptionsActions from '../../../../../actions/TvOptionsActions';

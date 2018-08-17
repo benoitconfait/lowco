@@ -15,7 +15,7 @@ import { Dispatch } from 'redux';
 import { RootState } from '../../../../reducers';
 import { COLOR_GRAY_20, COLOR_GRAY_40, COLOR_ERROR, COLOR_GRAY_100 } from '../../../../styles/commonStyles';
 import { scale } from '../../../../helpers/scaleHelper';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import DropDown from '../../../common/DropDown';
 import Icon = VOO.Mobile.App.Enums.Icon;
 import LineColumnType = VOO.Mobile.App.Enums.LineColumnType;

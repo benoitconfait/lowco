@@ -10,7 +10,7 @@ import * as internetYearlyUsageActions from '../../../../actions/InternetYearlyU
 import { Dispatch } from 'redux';
 import { RootState } from '../../../../reducers';
 import { COLOR_GRAY_20 } from '../../../../styles/commonStyles';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import BarChart from '../../../common/charts/BarChart';
 import MyScrollView from '../../../common/MyScrollView';
 

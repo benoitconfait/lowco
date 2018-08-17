@@ -3,8 +3,8 @@ import BaseAction from '../../actions/BaseAction';
 import { CustomerActionTypes } from '../../actionTypes/customerActionTypes';
 import { AddressActionTypes } from '../../actionTypes/addressActionTypes';
 import { Reducer } from 'redux-testkit';
-import Models = VOO.Mobile.App.Models;
-import AddressType = VOO.Domain.Views.Customer.AddressType;
+import Models = Lowco.Models;
+import AddressType = Lowco.Domain.Views.Customer.AddressType;
 
 describe('reducers/AddressesReducer', () => {
 

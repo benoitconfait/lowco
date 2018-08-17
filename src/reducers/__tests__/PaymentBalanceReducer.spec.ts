@@ -3,7 +3,7 @@ import { Reducer } from 'redux-testkit';
 import PaymentBalanceReducer, { State, INITIAL_STATE } from '../PaymentBalanceReducer';
 import BaseAction from '../../actions/BaseAction';
 import { PaymentBalanceActionTypes } from '../../actionTypes/paymentBalanceActionTypes';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 describe('reducers/PaymentBalanceReducer', () => {
 

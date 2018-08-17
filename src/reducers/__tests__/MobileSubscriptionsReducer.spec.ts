@@ -3,7 +3,7 @@ import { Reducer } from 'redux-testkit';
 import MobileSubscriptionsReducer, { State, INITIAL_STATE } from '../MobileSubscriptionsReducer';
 import BaseAction from '../../actions/BaseAction';
 import { MobileSubscriptionsActionTypes } from '../../actionTypes/mobileSubscriptionsActionTypes';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 describe('reducers/MobileSubscriptionsReducer', () => {
 
@@ -29,7 +29,7 @@ describe('reducers/MobileSubscriptionsReducer', () => {
         msisdn: 123456456,
         offer: <Models.MobileOffer>{},
         simCard: <Models.SimCard>{
-          status: VOO.Domain.Views.Product.Mobile.SimCardStatus.Active
+          status: Lowco.Domain.Views.Product.Mobile.SimCardStatus.Active
         },
         usage: <Models.MobileUsage>{},
         validTill: new Date(),

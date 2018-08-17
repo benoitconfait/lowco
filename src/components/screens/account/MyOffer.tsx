@@ -11,7 +11,7 @@ import * as addressActions from '../../../actions/AddressActions';
 import * as customerActions from '../../../actions/CustomerActions';
 import * as customerOptionsActions from '../../../actions/CustomerOptionsActions';
 import * as mobileSubscriptionsActions from '../../../actions/MobileSubscriptionsActions';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import Section from '../../common/Section';
 import FixOffer from './FixOffer';
 import MobileOffer from './MobileOffer';

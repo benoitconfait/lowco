@@ -1,7 +1,7 @@
 import * as mobileSubscriptionsActionTypes from '../actionTypes/mobileSubscriptionsActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchMobileSubscriptions = (): BaseAction<mobileSubscriptionsActionTypes.MobileSubscriptionsActionTypes.FETCH_MOBILE_SUBSCRIPTIONS, null> =>
     <BaseAction<mobileSubscriptionsActionTypes.MobileSubscriptionsActionTypes.FETCH_MOBILE_SUBSCRIPTIONS, null>>{

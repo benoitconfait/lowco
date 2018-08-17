@@ -5,7 +5,7 @@ import * as vodUsageActions from '../../../../actions/VodUsageActions';
 import { Dispatch } from 'redux';
 import { RootState } from '../../../../reducers';
 import { COLOR_GRAY_20 } from '../../../../styles/commonStyles';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import VodMonthUsage from './VodMonthUsage';
 import MyScrollView from '../../../common/MyScrollView';
 

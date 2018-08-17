@@ -1,5 +1,5 @@
-declare namespace VOO.Mobile.App.Models {
-    class NetDailyUsage implements VOO.Domain.Views.Usage.Net.NetDailyUsage {
+declare namespace Lowco.Models {
+    class NetDailyUsage implements Lowco.Domain.Views.Usage.Net.NetDailyUsage {
         day: number;
         month: number;
         usageDay: Date;
@@ -13,9 +13,9 @@ declare namespace VOO.Mobile.App.Models {
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];        
     }
 
-    class NetMonthlyUsage implements VOO.Domain.Views.Usage.Net.NetMonthlyUsage {
+    class NetMonthlyUsage implements Lowco.Domain.Views.Usage.Net.NetMonthlyUsage {
         connectionId: string;
-        dailyUsages: VOO.Mobile.App.Models.NetDailyUsage[];
+        dailyUsages: Lowco.Models.NetDailyUsage[];
         dailyUsageUnit: Domain.Views.Usage.Net.NetUsageUnit.UnitType;
         overPriceDownloadAsEuro: number;
         overPriceUploadAsEuro: number;
@@ -35,8 +35,8 @@ declare namespace VOO.Mobile.App.Models {
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }
 
-    class NetMonthlyUsageCollection implements VOO.Domain.Views.Usage.Net.NetMonthlyUsageCollection {
-        items: VOO.Mobile.App.Models.NetMonthlyUsage[];
+    class NetMonthlyUsageCollection implements Lowco.Domain.Views.Usage.Net.NetMonthlyUsageCollection {
+        items: Lowco.Models.NetMonthlyUsage[];
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }
 }

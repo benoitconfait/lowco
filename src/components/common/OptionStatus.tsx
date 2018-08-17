@@ -8,7 +8,7 @@ import { scale } from '../../helpers/scaleHelper';
 import numeral from '../../helpers/numberFormatter';
 import translate from '../../lang/translate';
 import Modal from 'react-native-modal';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 interface Props {
   onActivateOption: (option: Models.OptionViewResource) => void;

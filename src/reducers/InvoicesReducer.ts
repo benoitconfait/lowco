@@ -2,7 +2,7 @@ import {
     InvoicesActionTypes
 } from '../actionTypes/invoicesActionTypes';
 import BaseAction from '../actions/BaseAction';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import KeyResponse from '../actions/KeyResponse';
 
 export type State = {

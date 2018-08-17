@@ -3,7 +3,7 @@ import {
 } from '../actionTypes/customerOptionsActionTypes';
 import BaseAction from '../actions/BaseAction';
 import _ from 'lodash';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 var optionsData = require('../../assets/data/options.json');
 import KeyResponse from '../actions/KeyResponse';
 

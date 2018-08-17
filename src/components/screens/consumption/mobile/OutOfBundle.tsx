@@ -14,7 +14,7 @@ import ProgressBar from '../../../common/ProgressBar';
 import translate from '../../../../lang/translate';
 import FeaturedLabelValueUnit from '../../../common/FeaturedLabelValueUnit';
 import { RootState } from '../../../../reducers';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import numeral from '../../../../helpers/numberFormatter';
 import { scale } from '../../../../helpers/scaleHelper';
 import { COLOR_ERROR, COLOR_GRAY_100 } from '../../../../styles/commonStyles';

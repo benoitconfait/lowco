@@ -13,7 +13,7 @@ import { scale } from '../../../helpers/scaleHelper';
 import { RootState } from '../../../reducers';
 import { Card } from '../../common/card';
 import MyScrollView from '../../common/MyScrollView';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 type ConnectedState = {
   loading: boolean;

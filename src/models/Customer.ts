@@ -1,4 +1,4 @@
-declare namespace VOO.Mobile.App.Models {
+declare namespace Lowco.Models {
     class Identifier implements Domain.Views.Identifier {
         system: string;
         value: any;
@@ -24,7 +24,7 @@ declare namespace VOO.Mobile.App.Models {
         addressType: Domain.Views.Customer.AddressType;
         boxNumber: string;
         city: string;
-        cityIds: VOO.Mobile.App.Models.Identifier[];
+        cityIds: Lowco.Models.Identifier[];
         countryCode: string;
         frequencyPlan: string;
         houseNumber: string;
@@ -34,8 +34,8 @@ declare namespace VOO.Mobile.App.Models {
         packFriendlyName: string;
         packId: string;
         pointOfDelivery: string;
-        productAvailability: VOO.Mobile.App.Models.ProductAvailability;
-        productPresence: VOO.Mobile.App.Models.ProductPresence;
+        productAvailability: Lowco.Models.ProductAvailability;
+        productPresence: Lowco.Models.ProductPresence;
         street: string;
         streetId: number;
         vooStreetId: number;
@@ -43,8 +43,8 @@ declare namespace VOO.Mobile.App.Models {
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }
 
-    class Customer implements VOO.Domain.Views.Customer.Customer {
-        addresses: VOO.Mobile.App.Models.Address[];
+    class Customer implements Lowco.Domain.Views.Customer.Customer {
+        addresses: Lowco.Models.Address[];
         birthdate: Date;
         customerId: string;
         emailAddress: string;

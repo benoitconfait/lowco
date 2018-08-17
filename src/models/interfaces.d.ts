@@ -67,9 +67,9 @@ declare namespace System.Net {
 		supportsHeaders: boolean;
 	}
 }
-declare namespace VOO.Domain.Core.Hal {
+declare namespace Lowco.Domain.Core.Hal {
 	interface BaseResource {
-		relations: System.Collections.Generic.KeyValuePair<string, VOO.Domain.Core.Hal.Link>[];
+		relations: System.Collections.Generic.KeyValuePair<string, Lowco.Domain.Core.Hal.Link>[];
 	}
 	interface Link {
 		href: string;
@@ -82,65 +82,65 @@ declare namespace VOO.Domain.Core.Hal {
 		type: string;
 	}
 }
-declare namespace VOO.Domain.Core.Views.Catalog {
+declare namespace Lowco.Domain.Core.Views.Catalog {
 }
-declare namespace VOO.Domain.Core.Views.Catalog.Config {
+declare namespace Lowco.Domain.Core.Views.Catalog.Config {
 	interface OptionConfig {
 		acbisActivateEcfInfo: string;
 		acbisDeactivateEcfInfo: string;
-		activationSource: VOO.Domain.Core.Views.Catalog.Config.ActivationSource;
+		activationSource: Lowco.Domain.Core.Views.Catalog.Config.ActivationSource;
 		alwaysActive: boolean;
-		bundles: VOO.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle[];
+		bundles: Lowco.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle[];
 		canBeDeactivated: boolean;
-		category: VOO.Domain.Core.Views.Catalog.ProductCategory;
-		class: VOO.Domain.Core.Views.Catalog.Config.OptionClass;
+		category: Lowco.Domain.Core.Views.Catalog.ProductCategory;
+		class: Lowco.Domain.Core.Views.Catalog.Config.OptionClass;
 		duration: boolean;
 		equimpment: boolean;
 		from: Date;
-		group: VOO.Domain.Core.Views.Catalog.Config.OptionGroup;
+		group: Lowco.Domain.Core.Views.Catalog.Config.OptionGroup;
 		id: string;
 		idForCatalogMatching: string;
 		idForEligibility: string;
 		includedInPackId: string;
 		isObsolete: boolean;
 		parametersForCatalog: string[];
-		returnedBy: VOO.Domain.Core.Views.Catalog.Config.ReturnedByType;
+		returnedBy: Lowco.Domain.Core.Views.Catalog.Config.ReturnedByType;
 		selfcareActivationDenied: boolean;
 		to: Date;
-		type: VOO.Domain.Core.Views.Catalog.Config.ProductType;
+		type: Lowco.Domain.Core.Views.Catalog.Config.ProductType;
 	}
 }
-declare namespace VOO.Domain.Core.Views.Catalog.Config.OptionConfig {
+declare namespace Lowco.Domain.Core.Views.Catalog.Config.OptionConfig {
 	interface Bundle {
 		currentValue: number;
 		description: string;
 		hidden: boolean;
 		id: number;
 		name: string;
-		type: VOO.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle.BundleType;
-		unitComment: VOO.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle.BundleUnit;
+		type: Lowco.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle.BundleType;
+		unitComment: Lowco.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle.BundleUnit;
 		value: number;
 	}
 }
-declare namespace VOO.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle {
+declare namespace Lowco.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle {
 }
-declare namespace VOO.Domain.Core.Views.Catalog.DiscountInfo {
+declare namespace Lowco.Domain.Core.Views.Catalog.DiscountInfo {
 	interface OrderableDiscount {
 		discount: number;
 		relatedIds: string[];
-		type: VOO.Domain.Core.Views.Catalog.DiscountInfo.OrderableDiscountType;
+		type: Lowco.Domain.Core.Views.Catalog.DiscountInfo.OrderableDiscountType;
 	}
 }
-declare namespace VOO.Domain.Core.Views.Customer.Eligibilty {
+declare namespace Lowco.Domain.Core.Views.Customer.Eligibilty {
 }
-declare namespace VOO.Domain.Core.Views.Customer.Portfolio {
+declare namespace Lowco.Domain.Core.Views.Customer.Portfolio {
 	interface ProductPresence {
 		internet: boolean;
 		telephone: boolean;
 		television: boolean;
 	}
 }
-declare namespace VOO.Domain.Views {
+declare namespace Lowco.Domain.Views {
 	interface ByteArrayResult {
 		result: number[];
 	}
@@ -149,8 +149,8 @@ declare namespace VOO.Domain.Views {
 		value: any;
 	}
 }
-declare namespace VOO.Domain.Views.Bank {
-	interface BankAccount extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Bank {
+	interface BankAccount extends Lowco.Domain.Core.Hal.BaseResource {
 		accountNumber: string;
 		bic: string;
 		city: string;
@@ -159,30 +159,30 @@ declare namespace VOO.Domain.Views.Bank {
 		sequence: number;
 		street: string;
 	}
-	interface BankAccountCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Bank.BankAccount[];
+	interface BankAccountCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Bank.BankAccount[];
 	}
 }
-declare namespace VOO.Domain.Views.Billing {
-	interface Account extends VOO.Domain.Core.Hal.BaseResource {
-		deliveryType: VOO.Domain.Views.Billing.Account.invoiceDeliveryType;
+declare namespace Lowco.Domain.Views.Billing {
+	interface Account extends Lowco.Domain.Core.Hal.BaseResource {
+		deliveryType: Lowco.Domain.Views.Billing.Account.invoiceDeliveryType;
 		emailAddress: string;
 		isEBillingEligible: boolean;
 		isEligibleForFixDomiciliation: boolean;
 		mobilePhoneNumber: string;
 		smsNotifications: boolean;
 	}
-	interface Invoice extends VOO.Domain.Core.Hal.BaseResource {
+	interface Invoice extends Lowco.Domain.Core.Hal.BaseResource {
 		amount: number;
 		documentReference: string;
-		documentType: VOO.Domain.Views.Billing.BillingDocumentType;
+		documentType: Lowco.Domain.Views.Billing.BillingDocumentType;
 		id: string;
 		invoiceDate: Date;
 		paymentDueDate: Date;
-		paymentStatus: VOO.Domain.Views.Billing.PaymentStatusType;
+		paymentStatus: Lowco.Domain.Views.Billing.PaymentStatusType;
 		periodEndDate: Date;
 		periodStartDate: Date;
-		product: VOO.Domain.Views.Billing.ProductType;
+		product: Lowco.Domain.Views.Billing.ProductType;
 	}
 	interface InvoiceAddress {
 		boxNumber: string;
@@ -200,10 +200,10 @@ declare namespace VOO.Domain.Views.Billing {
 		street2: string;
 		street3: string;
 	}
-	interface InvoiceCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Billing.Invoice[];
+	interface InvoiceCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Billing.Invoice[];
 	}
-	interface PaymentBalance extends VOO.Domain.Core.Hal.BaseResource {
+	interface PaymentBalance extends Lowco.Domain.Core.Hal.BaseResource {
 		hasMobileAccountBalance: boolean;
 		isAvailable: boolean;
 		isOneBill: boolean;
@@ -216,61 +216,61 @@ declare namespace VOO.Domain.Views.Billing {
 	}
 	interface Receivable {
 		amount: number;
-		productType: VOO.Domain.Views.Billing.ProductType;
+		productType: Lowco.Domain.Views.Billing.ProductType;
 		structuredCommunication: string;
 		unPaidInvoices: number;
 	}
 }
-declare namespace VOO.Domain.Views.Billing.Account {
+declare namespace Lowco.Domain.Views.Billing.Account {
 }
-declare namespace VOO.Domain.Views.ContactForm {
+declare namespace Lowco.Domain.Views.ContactForm {
 	interface ContactFormMapping {
 		motives: string[];
 		reason: string;
 	}
-	interface ContactFormTypes extends VOO.Domain.Core.Hal.BaseResource {
-		mappings: VOO.Domain.Views.ContactForm.ContactFormMapping[];
+	interface ContactFormTypes extends Lowco.Domain.Core.Hal.BaseResource {
+		mappings: Lowco.Domain.Views.ContactForm.ContactFormMapping[];
 	}
 }
-declare namespace VOO.Domain.Views.ContactForm.Ftp {
+declare namespace Lowco.Domain.Views.ContactForm.Ftp {
 	interface SendFtpFileResponse {
 		fileName: string;
 		ftpResponse: System.Net.FtpWebResponse;
 	}
 }
-declare namespace VOO.Domain.Views.CreditCheck {
+declare namespace Lowco.Domain.Views.CreditCheck {
 	interface CreditScore {
-		fixProducts: VOO.Domain.Views.CreditCheck.CreditScoreValue;
-		handsetScoreColor: VOO.Domain.Views.CreditCheck.CreditScoreColor;
-		mobile: VOO.Domain.Views.CreditCheck.CreditScoreValue;
-		mobileScoreColor: VOO.Domain.Views.CreditCheck.CreditScoreColor;
+		fixProducts: Lowco.Domain.Views.CreditCheck.CreditScoreValue;
+		handsetScoreColor: Lowco.Domain.Views.CreditCheck.CreditScoreColor;
+		mobile: Lowco.Domain.Views.CreditCheck.CreditScoreValue;
+		mobileScoreColor: Lowco.Domain.Views.CreditCheck.CreditScoreColor;
 		mobileScoreLabel: string;
-		refusalReason4P: VOO.Domain.Core.Views.Customer.Eligibilty.RefusalReason4P;
+		refusalReason4P: Lowco.Domain.Core.Views.Customer.Eligibilty.RefusalReason4P;
 	}
 	interface EligibilityAndCreditCheckDetail {
-		handsetCreditScore: VOO.Domain.Views.CreditCheck.CreditScoreColor;
-		mobileSubscriptionCreditScore: VOO.Domain.Views.CreditCheck.CreditScoreColor;
+		handsetCreditScore: Lowco.Domain.Views.CreditCheck.CreditScoreColor;
+		mobileSubscriptionCreditScore: Lowco.Domain.Views.CreditCheck.CreditScoreColor;
 	}
-	interface HandsetAndStarOfferResponse extends VOO.Domain.Core.Hal.BaseResource {
+	interface HandsetAndStarOfferResponse extends Lowco.Domain.Core.Hal.BaseResource {
 		isEligible: boolean;
 	}
 }
-declare namespace VOO.Domain.Views.Cuca {
+declare namespace Lowco.Domain.Views.Cuca {
 	interface Claim {
 		type: string;
 		value: string;
 	}
-	interface CucaProfile extends VOO.Domain.Core.Hal.BaseResource {
+	interface CucaProfile extends Lowco.Domain.Core.Hal.BaseResource {
 		email: string;
-		impersonatedUser: VOO.Domain.Views.Cuca.ImpersonatedUser;
+		impersonatedUser: Lowco.Domain.Views.Cuca.ImpersonatedUser;
 	}
 	interface ImpersonatedUser {
 		customerId: string;
 		email: string;
 	}
-	interface UserAccount extends VOO.Domain.Core.Hal.BaseResource {
-		accountDetails: VOO.Domain.Views.Cuca.UserAccountDetails;
-		accountSummary: VOO.Domain.Views.Cuca.UserAccountSummary;
+	interface UserAccount extends Lowco.Domain.Core.Hal.BaseResource {
+		accountDetails: Lowco.Domain.Views.Cuca.UserAccountDetails;
+		accountSummary: Lowco.Domain.Views.Cuca.UserAccountSummary;
 		customerId: string;
 	}
 	interface UserAccountDetails {
@@ -285,15 +285,15 @@ declare namespace VOO.Domain.Views.Cuca {
 	interface UserAccountSummary {
 		email: string;
 		login: string;
-		status: VOO.Domain.Views.Cuca.UserAccountStatus;
+		status: Lowco.Domain.Views.Cuca.UserAccountStatus;
 	}
 }
-declare namespace VOO.Domain.Views.Customer {
-	interface Address extends VOO.Domain.Core.Hal.BaseResource {
-		addressType: VOO.Domain.Views.Customer.AddressType;
+declare namespace Lowco.Domain.Views.Customer {
+	interface Address extends Lowco.Domain.Core.Hal.BaseResource {
+		addressType: Lowco.Domain.Views.Customer.AddressType;
 		boxNumber: string;
 		city: string;
-		cityIds: VOO.Domain.Views.Identifier[];
+		cityIds: Lowco.Domain.Views.Identifier[];
 		countryCode: string;
 		frequencyPlan: string;
 		houseNumber: string;
@@ -303,24 +303,24 @@ declare namespace VOO.Domain.Views.Customer {
 		packFriendlyName: string;
 		packId: string;
 		pointOfDelivery: string;
-		productAvailability: VOO.Domain.Views.Customer.ProductAvailability;
-		productPresence: VOO.Domain.Core.Views.Customer.Portfolio.ProductPresence;
+		productAvailability: Lowco.Domain.Views.Customer.ProductAvailability;
+		productPresence: Lowco.Domain.Core.Views.Customer.Portfolio.ProductPresence;
 		street: string;
 		streetId: number;
 		vooStreetId: number;
 		zipCode: string;
 	}
-	interface AddressCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Customer.Address[];
+	interface AddressCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Customer.Address[];
 	}
-	interface Customer extends VOO.Domain.Core.Hal.BaseResource {
-		addresses: VOO.Domain.Views.Customer.Address[];
+	interface Customer extends Lowco.Domain.Core.Hal.BaseResource {
+		addresses: Lowco.Domain.Views.Customer.Address[];
 		birthdate: Date;
 		customerId: string;
 		emailAddress: string;
 		firstname: string;
 		gsmNumber: string;
-		invoiceDeliveryType: VOO.Domain.Views.Billing.Account.invoiceDeliveryType;
+		invoiceDeliveryType: Lowco.Domain.Views.Billing.Account.invoiceDeliveryType;
 		isEligibleForEBilling: boolean;
 		isEligibleForFixDomiciliation: boolean;
 		isSMSNotificationRequired: boolean;
@@ -339,109 +339,109 @@ declare namespace VOO.Domain.Views.Customer {
 		telephone: boolean;
 		television: boolean;
 	}
-	interface SimpleCustomer extends VOO.Domain.Core.Hal.BaseResource {
+	interface SimpleCustomer extends Lowco.Domain.Core.Hal.BaseResource {
 		birthdate: Date;
 		customerId: string;
 		emailAddress: string;
 		firstname: string;
 		gsmNumber: string;
 		lastname: string;
-		otherAddresses: VOO.Domain.Views.Customer.Address[];
+		otherAddresses: Lowco.Domain.Views.Customer.Address[];
 		telephoneNumber: string;
-		usageAddresses: VOO.Domain.Views.Customer.Address[];
+		usageAddresses: Lowco.Domain.Views.Customer.Address[];
 	}
 }
-declare namespace VOO.Domain.Views.Document {
-	interface Document extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Document {
+	interface Document extends Lowco.Domain.Core.Hal.BaseResource {
 		creationDate: Date;
 		documentReference: string;
-		documentType: VOO.Domain.Views.Document.DocumentType;
-		productType: VOO.Domain.Views.Document.DocumentProductType;
+		documentType: Lowco.Domain.Views.Document.DocumentType;
+		productType: Lowco.Domain.Views.Document.DocumentProductType;
 	}
-	interface DocumentCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Document.Document[];
+	interface DocumentCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Document.Document[];
 	}
-	interface DocumentLink extends VOO.Domain.Core.Hal.BaseResource {
+	interface DocumentLink extends Lowco.Domain.Core.Hal.BaseResource {
 		uri: System.Uri;
 	}
 }
-declare namespace VOO.Domain.Views.EasySwitch {
-	interface EasySwitchResource extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.EasySwitch {
+	interface EasySwitchResource extends Lowco.Domain.Core.Hal.BaseResource {
 		easySwitchId: string;
 	}
 }
-declare namespace VOO.Domain.Views.Email {
+declare namespace Lowco.Domain.Views.Email {
 	interface Alias {
 		login: string;
 		sequence: number;
 	}
 	interface Mailbox {
-		aliases: VOO.Domain.Views.Email.Alias[];
+		aliases: Lowco.Domain.Views.Email.Alias[];
 		canBeDeleted: boolean;
 		domain: string;
 		emailAddress: string;
 		login: string;
 		sequence: number;
 	}
-	interface MailboxAccount extends VOO.Domain.Core.Hal.BaseResource {
+	interface MailboxAccount extends Lowco.Domain.Core.Hal.BaseResource {
 		allowedDomains: string[];
-		mailboxes: VOO.Domain.Views.Email.Mailbox[];
+		mailboxes: Lowco.Domain.Views.Email.Mailbox[];
 		pointOfConsumptionId: string;
 		sap14: string;
 	}
-	interface MailboxAccountCollection extends VOO.Domain.Core.Hal.BaseResource {
-		mailboxAccounts: VOO.Domain.Views.Email.MailboxAccount[];
+	interface MailboxAccountCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		mailboxAccounts: Lowco.Domain.Views.Email.MailboxAccount[];
 	}
 }
-declare namespace VOO.Domain.Views.Fake {
-	interface FakeContractInfo extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Fake {
+	interface FakeContractInfo extends Lowco.Domain.Core.Hal.BaseResource {
 		fakeContractId: string;
 	}
 }
-declare namespace VOO.Domain.Views.Legacy {
+declare namespace Lowco.Domain.Views.Legacy {
 	interface LegacyCreditScore {
 		currentPerdiodBalance: number;
-		status: VOO.Domain.Views.Legacy.CreditScoreStatus;
+		status: Lowco.Domain.Views.Legacy.CreditScoreStatus;
 	}
 	interface LegacyServicesInformation {
-		status: VOO.Domain.Views.Legacy.LegacyServicesStatus;
+		status: Lowco.Domain.Views.Legacy.LegacyServicesStatus;
 	}
 }
-declare namespace VOO.Domain.Views.Mandate {
-	interface Mandate extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Mandate {
+	interface Mandate extends Lowco.Domain.Core.Hal.BaseResource {
 		iban: string;
 		isUsed: boolean;
-		productType: VOO.Domain.Views.Mandate.MandateProductType;
-		status: VOO.Domain.Views.Mandate.MandateStatus;
-		userStatus: VOO.Domain.Views.Mandate.MandateUserStatus;
+		productType: Lowco.Domain.Views.Mandate.MandateProductType;
+		status: Lowco.Domain.Views.Mandate.MandateStatus;
+		userStatus: Lowco.Domain.Views.Mandate.MandateUserStatus;
 	}
-	interface MandateCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Mandate.Mandate[];
+	interface MandateCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Mandate.Mandate[];
 	}
 }
-declare namespace VOO.Domain.Views.Network {
-	interface NetworkOperator extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Network {
+	interface NetworkOperator extends Lowco.Domain.Core.Hal.BaseResource {
 		cableOperatorName: string;
 		label: string;
 		legalOperatorName: string;
 		operatorId: number;
 		operatorName: string;
 	}
-	interface NetworkOperatorCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Network.NetworkOperator[];
+	interface NetworkOperatorCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Network.NetworkOperator[];
 	}
 }
-declare namespace VOO.Domain.Views.NextBestOffer {
+declare namespace Lowco.Domain.Views.NextBestOffer {
 	interface Offer {
 		id: string;
-		type: VOO.Domain.Views.NextBestOffer.OfferType;
+		type: Lowco.Domain.Views.NextBestOffer.OfferType;
 	}
-	interface OfferCollection extends VOO.Domain.Core.Hal.BaseResource {
-		offers: VOO.Domain.Views.NextBestOffer.Offer[];
+	interface OfferCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		offers: Lowco.Domain.Views.NextBestOffer.Offer[];
 	}
 }
-declare namespace VOO.Domain.Views.Phone {
-	interface Phone extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Phone {
+	interface Phone extends Lowco.Domain.Core.Hal.BaseResource {
 		acbisNumber: string;
 		displayId: string;
 		displayName: string;
@@ -455,11 +455,11 @@ declare namespace VOO.Domain.Views.Phone {
 		periodStart: string;
 		serviceId: string;
 	}
-	interface PhoneCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Phone.Phone[];
+	interface PhoneCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Phone.Phone[];
 	}
 }
-declare namespace VOO.Domain.Views.Product {
+declare namespace Lowco.Domain.Views.Product {
 	interface NetworkOperator {
 		id: number;
 		label: string;
@@ -469,61 +469,61 @@ declare namespace VOO.Domain.Views.Product {
 	}
 	interface OptionEligibility {
 		eligible: boolean;
-		option: VOO.Domain.Core.Views.Catalog.Config.OptionConfig;
+		option: Lowco.Domain.Core.Views.Catalog.Config.OptionConfig;
 	}
 	interface OptionIdentifier {
 		externalId: string;
 		phoneNumber: string;
 		pointOfDeliveryId: string;
 		sap14: string;
-		type: VOO.Domain.Core.Views.Catalog.Config.ProductType;
+		type: Lowco.Domain.Core.Views.Catalog.Config.ProductType;
 	}
-	interface OptionPromo extends VOO.Domain.Core.Hal.BaseResource {
+	interface OptionPromo extends Lowco.Domain.Core.Hal.BaseResource {
 		amount: number;
 		endDate: Date;
 		id: string;
 		label: string;
-		movement: VOO.Domain.Views.Product.PromoMovementType;
+		movement: Lowco.Domain.Views.Product.PromoMovementType;
 	}
-	interface OptionStatusResource extends VOO.Domain.Core.Hal.BaseResource {
+	interface OptionStatusResource extends Lowco.Domain.Core.Hal.BaseResource {
 		key: string;
 		mobileCreditLimit: number;
-		status: VOO.Domain.Views.Product.OptionStatus;
+		status: Lowco.Domain.Views.Product.OptionStatus;
 	}
-	interface OptionViewCollectionResource extends VOO.Domain.Core.Hal.BaseResource {
-		activationStatuses: VOO.Domain.Views.Product.Activation.ActivationStatusView[];
-		options: VOO.Domain.Views.Product.OptionViewResource[];
+	interface OptionViewCollectionResource extends Lowco.Domain.Core.Hal.BaseResource {
+		activationStatuses: Lowco.Domain.Views.Product.Activation.ActivationStatusView[];
+		options: Lowco.Domain.Views.Product.OptionViewResource[];
 	}
-	interface OptionViewResource extends VOO.Domain.Core.Hal.BaseResource {
-		activation: VOO.Domain.Views.Product.Activation.Activatability;
-		category: VOO.Domain.Core.Views.Catalog.ProductCategory;
+	interface OptionViewResource extends Lowco.Domain.Core.Hal.BaseResource {
+		activation: Lowco.Domain.Views.Product.Activation.Activatability;
+		category: Lowco.Domain.Core.Views.Catalog.ProductCategory;
 		creditLimit: number;
 		discount: number;
 		externalId: string;
 		isIncludedInPack: boolean;
 		key: string;
-		onMostExpensive: VOO.Domain.Core.Views.Catalog.DiscountInfo.OrderableDiscount;
+		onMostExpensive: Lowco.Domain.Core.Views.Catalog.DiscountInfo.OrderableDiscount;
 		phoneNumber: string;
 		pointOfDeliveryId: string;
 		price: number;
 		priceWithoutDiscount: number;
-		promos: VOO.Domain.Views.Product.OptionPromo[];
+		promos: Lowco.Domain.Views.Product.OptionPromo[];
 		sap14: string;
 		simulated: boolean;
 		simulationLocked: boolean;
-		status: VOO.Domain.Views.Product.OptionStatus;
+		status: Lowco.Domain.Views.Product.OptionStatus;
 	}
-	interface OrderOptionsViewCollectionResource extends VOO.Domain.Views.Product.OptionViewCollectionResource {
-		basket: VOO.Domain.Views.Product.OptionViewResource[];
+	interface OrderOptionsViewCollectionResource extends Lowco.Domain.Views.Product.OptionViewCollectionResource {
+		basket: Lowco.Domain.Views.Product.OptionViewResource[];
 	}
 }
-declare namespace VOO.Domain.Views.Product.Activation {
+declare namespace Lowco.Domain.Views.Product.Activation {
 	interface Activatability {
 		exclusivities: string[];
 		failure: boolean;
 		migrations: string[];
 		optionActivationAllowed: boolean;
-		reason: VOO.Domain.Views.Product.Activation.ActivationReason;
+		reason: Lowco.Domain.Views.Product.Activation.ActivationReason;
 		requirements: string[];
 	}
 	interface ActivationStatusView {
@@ -532,38 +532,38 @@ declare namespace VOO.Domain.Views.Product.Activation {
 		phoneNumber: string;
 		reason: string;
 		sap14: string;
-		status: VOO.Domain.Views.Product.Activation.ActivationExternalStatus;
+		status: Lowco.Domain.Views.Product.Activation.ActivationExternalStatus;
 	}
 }
-declare namespace VOO.Domain.Views.Product.Downgrades {
-	interface DowngradableOptionResource extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Product.Downgrades {
+	interface DowngradableOptionResource extends Lowco.Domain.Core.Hal.BaseResource {
 		isDowngradable: boolean;
 		isEligibleCustomer: boolean;
 		optionId: string;
 	}
-	interface OptionProvisioningResource extends VOO.Domain.Core.Hal.BaseResource {
+	interface OptionProvisioningResource extends Lowco.Domain.Core.Hal.BaseResource {
 		status: string;
 	}
-	interface VisOptionValidityResource extends VOO.Domain.Core.Hal.BaseResource {
+	interface VisOptionValidityResource extends Lowco.Domain.Core.Hal.BaseResource {
 		status: string;
 	}
 }
-declare namespace VOO.Domain.Views.Product.Mobile {
+declare namespace Lowco.Domain.Views.Product.Mobile {
 	interface BoostDataUsage {
-		data: VOO.Domain.Views.Product.Mobile.UsageInfo;
+		data: Lowco.Domain.Views.Product.Mobile.UsageInfo;
 	}
-	interface Company extends VOO.Domain.Views.Product.Mobile.Contractor {
+	interface Company extends Lowco.Domain.Views.Product.Mobile.Contractor {
 		companyName: string;
 		vatNumber: string;
 	}
 	interface Contractor {
 		firstName: string;
-		gender: VOO.Domain.Views.Product.Mobile.Contractor.GenderType;
+		gender: Lowco.Domain.Views.Product.Mobile.Contractor.GenderType;
 		lastname: string;
 		msisdn: string;
 	}
 	interface ContractStatus {
-		status: VOO.Domain.Views.Product.Mobile.ContractStatus.ContractStatusType;
+		status: Lowco.Domain.Views.Product.Mobile.ContractStatus.ContractStatusType;
 	}
 	interface CreditLimit {
 		amount: number;
@@ -573,8 +573,8 @@ declare namespace VOO.Domain.Views.Product.Mobile {
 		purchaseUrl: string;
 	}
 	interface EuropeUsage {
-		sms: VOO.Domain.Views.Product.Mobile.UsageInfo;
-		voice: VOO.Domain.Views.Product.Mobile.UsageInfo;
+		sms: Lowco.Domain.Views.Product.Mobile.UsageInfo;
+		voice: Lowco.Domain.Views.Product.Mobile.UsageInfo;
 	}
 	interface HardwareInfo {
 		durationInMonth: number;
@@ -590,31 +590,31 @@ declare namespace VOO.Domain.Views.Product.Mobile {
 		validFrom: Date;
 		validTill: Date;
 	}
-	interface Individual extends VOO.Domain.Views.Product.Mobile.Contractor {
+	interface Individual extends Lowco.Domain.Views.Product.Mobile.Contractor {
 	}
 	interface MainUsage {
-		data: VOO.Domain.Views.Product.Mobile.UsageInfo;
-		sms: VOO.Domain.Views.Product.Mobile.UsageInfo;
-		voice: VOO.Domain.Views.Product.Mobile.UsageInfo;
-		voice2VooMobile: VOO.Domain.Views.Product.Mobile.UsageInfo;
+		data: Lowco.Domain.Views.Product.Mobile.UsageInfo;
+		sms: Lowco.Domain.Views.Product.Mobile.UsageInfo;
+		voice: Lowco.Domain.Views.Product.Mobile.UsageInfo;
+		voice2VooMobile: Lowco.Domain.Views.Product.Mobile.UsageInfo;
 	}
 	interface MobileCardHolder {
 		firstname: string;
 		lastname: string;
 	}
-	interface MobileInformation extends VOO.Domain.Core.Hal.BaseResource {
-		contractor: VOO.Domain.Views.Product.Mobile.Contractor;
-		subscriptions: VOO.Domain.Views.Product.Mobile.MobileSubscription[];
+	interface MobileInformation extends Lowco.Domain.Core.Hal.BaseResource {
+		contractor: Lowco.Domain.Views.Product.Mobile.Contractor;
+		subscriptions: Lowco.Domain.Views.Product.Mobile.MobileSubscription[];
 	}
 	interface MobileOffer {
 		dataOnly: boolean;
-		hardware: VOO.Domain.Views.Product.Mobile.HardwareInfo;
+		hardware: Lowco.Domain.Views.Product.Mobile.HardwareInfo;
 		id: string;
-		limit: VOO.Domain.Views.Product.Mobile.CreditLimit;
+		limit: Lowco.Domain.Views.Product.Mobile.CreditLimit;
 		name: string;
 		price: number;
-		promotion: VOO.Domain.Views.Product.Mobile.MobileOfferPromotion;
-		services: VOO.Domain.Views.Product.Mobile.MobilePricedProduct[];
+		promotion: Lowco.Domain.Views.Product.Mobile.MobileOfferPromotion;
+		services: Lowco.Domain.Views.Product.Mobile.MobilePricedProduct[];
 	}
 	interface MobileOfferPromotion {
 		amount: number;
@@ -622,73 +622,73 @@ declare namespace VOO.Domain.Views.Product.Mobile {
 		id: number;
 	}
 	interface MobilePricedProduct {
-		category: VOO.Domain.Core.Views.Catalog.ProductCategory;
+		category: Lowco.Domain.Core.Views.Catalog.ProductCategory;
 		id: string;
 		monthlyPrice: number;
-		type: VOO.Domain.Views.Product.ServiceType;
+		type: Lowco.Domain.Views.Product.ServiceType;
 	}
 	interface MobileProductDetail {
 		id: string;
 		name: string;
 	}
-	interface MobileSubscription extends VOO.Domain.Core.Hal.BaseResource {
+	interface MobileSubscription extends Lowco.Domain.Core.Hal.BaseResource {
 		balance: number;
-		holder: VOO.Domain.Views.Product.Mobile.MobileCardHolder;
+		holder: Lowco.Domain.Views.Product.Mobile.MobileCardHolder;
 		id: string;
 		msisdn: number;
-		offer: VOO.Domain.Views.Product.Mobile.MobileOffer;
-		simCard: VOO.Domain.Views.Product.Mobile.SimCard;
-		usage: VOO.Domain.Views.Product.Mobile.MobileUsage;
+		offer: Lowco.Domain.Views.Product.Mobile.MobileOffer;
+		simCard: Lowco.Domain.Views.Product.Mobile.SimCard;
+		usage: Lowco.Domain.Views.Product.Mobile.MobileUsage;
 		validTill: Date;
 	}
 	interface MobileUsage {
-		boostData: VOO.Domain.Views.Product.Mobile.BoostDataUsage;
-		europe: VOO.Domain.Views.Product.Mobile.EuropeUsage;
-		main: VOO.Domain.Views.Product.Mobile.MainUsage;
-		niceDevice: VOO.Domain.Views.Product.Mobile.NiceDeviceUsage;
-		roaming: VOO.Domain.Views.Product.Mobile.RoamingUsage;
+		boostData: Lowco.Domain.Views.Product.Mobile.BoostDataUsage;
+		europe: Lowco.Domain.Views.Product.Mobile.EuropeUsage;
+		main: Lowco.Domain.Views.Product.Mobile.MainUsage;
+		niceDevice: Lowco.Domain.Views.Product.Mobile.NiceDeviceUsage;
+		roaming: Lowco.Domain.Views.Product.Mobile.RoamingUsage;
 	}
 	interface NiceDeviceUsage {
-		data: VOO.Domain.Views.Product.Mobile.UsageInfo;
+		data: Lowco.Domain.Views.Product.Mobile.UsageInfo;
 	}
 	interface RoamingUsage {
-		money: VOO.Domain.Views.Product.Mobile.UsageInfo;
+		money: Lowco.Domain.Views.Product.Mobile.UsageInfo;
 	}
 	interface SimCard {
 		iccid: string;
-		indicator: VOO.Domain.Views.Product.Mobile.SimCardIndicator;
+		indicator: Lowco.Domain.Views.Product.Mobile.SimCardIndicator;
 		name: string;
 		puk: string;
-		status: VOO.Domain.Views.Product.Mobile.SimCardStatus;
+		status: Lowco.Domain.Views.Product.Mobile.SimCardStatus;
 	}
-	interface TariffPlanView extends VOO.Domain.Core.Hal.BaseResource {
+	interface TariffPlanView extends Lowco.Domain.Core.Hal.BaseResource {
 		id: number;
 		key: string;
 	}
 	interface UsageInfo {
 		current: number;
 		limit: number;
-		unit: VOO.Domain.Views.Product.Mobile.UsageUnit;
+		unit: Lowco.Domain.Views.Product.Mobile.UsageUnit;
 		unlimited: boolean;
 	}
 }
-declare namespace VOO.Domain.Views.Product.Mobile.Contractor {
+declare namespace Lowco.Domain.Views.Product.Mobile.Contractor {
 }
-declare namespace VOO.Domain.Views.Product.Mobile.ContractStatus {
+declare namespace Lowco.Domain.Views.Product.Mobile.ContractStatus {
 }
-// declare namespace VOO.Domain.Views.Product.Mobile.MobileOffer {
+// declare namespace Lowco.Domain.Views.Product.Mobile.MobileOffer {
 // 	interface <>c__DisplayClass34_0 {
-// 		currentPlan: VOO.Domain.Core.Views.Catalog.TariffPlan;
-// 		otherPlan: VOO.Domain.Core.Views.Catalog.TariffPlan;
+// 		currentPlan: Lowco.Domain.Core.Views.Catalog.TariffPlan;
+// 		otherPlan: Lowco.Domain.Core.Views.Catalog.TariffPlan;
 // 	}
 // }
-// declare namespace VOO.Domain.Views.Product.OrderOptionsViewCollectionResource {
+// declare namespace Lowco.Domain.Views.Product.OrderOptionsViewCollectionResource {
 // 	interface <>c {
-// 		<>9: VOO.Domain.Views.Product.OrderOptionsViewCollectionResource.<>c;
+// 		<>9: Lowco.Domain.Views.Product.OrderOptionsViewCollectionResource.<>c;
 // 		<>910: any;
 // 	}
 // }
-declare namespace VOO.Domain.Views.Smartphone {
+declare namespace Lowco.Domain.Views.Smartphone {
 	interface Smartphone {
 		brand: string;
 		bundlePrice: number;
@@ -716,60 +716,60 @@ declare namespace VOO.Domain.Views.Smartphone {
 		url: System.Collections.Generic.KeyValuePair<string, string>[];
 	}
 }
-declare namespace VOO.Domain.Views.TvParameters {
-	interface TvParameters extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.TvParameters {
+	interface TvParameters extends Lowco.Domain.Core.Hal.BaseResource {
 		parentalControlMinAgeRating: string;
 		parentalControlPinCode: string;
 		vodPurchaseCode: string;
 	}
 }
-declare namespace VOO.Domain.Views.Usage.Average {
-	interface UsageAverage extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Usage.Average {
+	interface UsageAverage extends Lowco.Domain.Core.Hal.BaseResource {
 		usage: any;
 	}
 }
-declare namespace VOO.Domain.Views.Usage.Mobile {
+declare namespace Lowco.Domain.Views.Usage.Mobile {
 	interface CallDetailRecord {
 		cost: number;
 		national: boolean;
 		offPlan: boolean;
 		phoneNumber: string;
 		time: Date;
-		type: VOO.Domain.Views.Usage.Mobile.MobileDailyUsageType;
-		unit: VOO.Domain.Views.Usage.Mobile.UsageUnit;
+		type: Lowco.Domain.Views.Usage.Mobile.MobileDailyUsageType;
+		unit: Lowco.Domain.Views.Usage.Mobile.UsageUnit;
 		usage: number;
 	}
 	interface CallDetailRecordsHistory {
-		items: VOO.Domain.Views.Usage.Mobile.MobileDailyUsage[];
-		summary: VOO.Domain.Views.Usage.Mobile.UsageSummary;
+		items: Lowco.Domain.Views.Usage.Mobile.MobileDailyUsage[];
+		summary: Lowco.Domain.Views.Usage.Mobile.UsageSummary;
 		totalCount: number;
 	}
 	interface MobileDailyUsage {
 		cost: number;
 		date: Date;
-		records: VOO.Domain.Views.Usage.Mobile.CallDetailRecord[];
+		records: Lowco.Domain.Views.Usage.Mobile.CallDetailRecord[];
 	}
 	interface OutOfBundleUsage {
 		cost: number;
 		usage: number;
 	}
 	interface UsageSummary {
-		details: VOO.Domain.Views.Usage.Mobile.UsageSummary[];
-		name: VOO.Domain.Views.Usage.Mobile.OutOfBundleCategory;
-		outOfBundleUsage: VOO.Domain.Views.Usage.Mobile.OutOfBundleUsage;
+		details: Lowco.Domain.Views.Usage.Mobile.UsageSummary[];
+		name: Lowco.Domain.Views.Usage.Mobile.OutOfBundleCategory;
+		outOfBundleUsage: Lowco.Domain.Views.Usage.Mobile.OutOfBundleUsage;
 	}
 }
-declare namespace VOO.Domain.Views.Usage.Net {
-	interface NetDailyUsage extends VOO.Domain.Views.Usage.Net.NetUsageUnit {
+declare namespace Lowco.Domain.Views.Usage.Net {
+	interface NetDailyUsage extends Lowco.Domain.Views.Usage.Net.NetUsageUnit {
 		day: number;
 		month: number;
 		usageDay: Date;
 		year: number;
 	}
-	interface NetMonthlyUsage extends VOO.Domain.Views.Usage.Net.NetUsageUnit {
+	interface NetMonthlyUsage extends Lowco.Domain.Views.Usage.Net.NetUsageUnit {
 		connectionId: string;
-		dailyUsages: VOO.Domain.Views.Usage.Net.NetDailyUsage[];
-		dailyUsageUnit: VOO.Domain.Views.Usage.Net.NetUsageUnit.UnitType;
+		dailyUsages: Lowco.Domain.Views.Usage.Net.NetDailyUsage[];
+		dailyUsageUnit: Lowco.Domain.Views.Usage.Net.NetUsageUnit.UnitType;
 		overPriceDownloadAsEuro: number;
 		overPriceUploadAsEuro: number;
 		overQuotaDownloadAsBytes: number;
@@ -780,35 +780,35 @@ declare namespace VOO.Domain.Views.Usage.Net {
 		totalOverPriceAsEuro: number;
 		totalOverQuotaAsBytes: number;
 	}
-	interface NetMonthlyUsageCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Usage.Net.NetMonthlyUsage[];
+	interface NetMonthlyUsageCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Usage.Net.NetMonthlyUsage[];
 	}
-	interface NetUsageUnit extends VOO.Domain.Core.Hal.BaseResource {
+	interface NetUsageUnit extends Lowco.Domain.Core.Hal.BaseResource {
 		downloadVolumeAsBytes: number;
 		totalVolumeAsBytes: number;
 		totalVolumeAsUnit: number;
 		uploadVolumeAsBytes: number;
-		usageUnit: VOO.Domain.Views.Usage.Net.NetUsageUnit.UnitType;
+		usageUnit: Lowco.Domain.Views.Usage.Net.NetUsageUnit.UnitType;
 		volumeMultiplicator: number;
 	}
-	interface NetYearlyUsage extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Usage.Net.NetMonthlyUsage[];
-		monthlyUsageUnit: VOO.Domain.Views.Usage.Net.NetUsageUnit.UnitType;
+	interface NetYearlyUsage extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Usage.Net.NetMonthlyUsage[];
+		monthlyUsageUnit: Lowco.Domain.Views.Usage.Net.NetUsageUnit.UnitType;
 	}
 }
-declare namespace VOO.Domain.Views.Usage.Net.NetUsageUnit {
+declare namespace Lowco.Domain.Views.Usage.Net.NetUsageUnit {
 }
-// declare namespace VOO.Domain.Views.Usage.Net.NetYearlyUsage {
+// declare namespace Lowco.Domain.Views.Usage.Net.NetYearlyUsage {
 // 	interface <>c {
-// 		<>9: VOO.Domain.Views.Usage.Net.NetYearlyUsage.<>c;
+// 		<>9: Lowco.Domain.Views.Usage.Net.NetYearlyUsage.<>c;
 // 		<>940: any;
 // 		<>941: any;
 // 	}
 // }
-declare namespace VOO.Domain.Views.Usage.Phone {
-	interface PhoneDailyUsage extends VOO.Domain.Core.Hal.BaseResource {
-		callDeviceType: VOO.Domain.Views.Usage.Phone.PhoneDailyUsage.DeviceType;
-		callLocalisation: VOO.Domain.Views.Usage.Phone.PhoneDailyUsage.Localisation;
+declare namespace Lowco.Domain.Views.Usage.Phone {
+	interface PhoneDailyUsage extends Lowco.Domain.Core.Hal.BaseResource {
+		callDeviceType: Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage.DeviceType;
+		callLocalisation: Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage.Localisation;
 		crCallBegin: Date;
 		crDest: string;
 		crDuration: number;
@@ -825,23 +825,23 @@ declare namespace VOO.Domain.Views.Usage.Phone {
 		rpCode: string;
 		tbcCode: string;
 	}
-	interface PhoneDailyUsageCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Usage.Phone.PhoneDailyUsage[];
-		options: VOO.Domain.Core.Views.Catalog.Config.OptionConfig[];
+	interface PhoneDailyUsageCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage[];
+		options: Lowco.Domain.Core.Views.Catalog.Config.OptionConfig[];
 		outOfBundlePrice: number;
 		outOfBundlePriceTVAC: number;
 		totalVoiceCommunication: number;
 	}
 }
-declare namespace VOO.Domain.Views.Usage.Phone.PhoneDailyUsage {
+declare namespace Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage {
 }
-// declare namespace VOO.Domain.Views.Usage.Phone.PhoneDailyUsageCollection {
+// declare namespace Lowco.Domain.Views.Usage.Phone.PhoneDailyUsageCollection {
 // 	interface <>c__DisplayClass22_0 {
 // 		optionId: string;
 // 	}
 // }
-declare namespace VOO.Domain.Views.Usage.Vod {
-	interface VodDailyUsage extends VOO.Domain.Core.Hal.BaseResource {
+declare namespace Lowco.Domain.Views.Usage.Vod {
+	interface VodDailyUsage extends Lowco.Domain.Core.Hal.BaseResource {
 		creationDateTime: Date;
 		name: string;
 		priceCurrency: string;
@@ -849,16 +849,16 @@ declare namespace VOO.Domain.Views.Usage.Vod {
 		priceTTC: number;
 		productType: string;
 	}
-	interface VodMonthlyUsage extends VOO.Domain.Core.Hal.BaseResource {
+	interface VodMonthlyUsage extends Lowco.Domain.Core.Hal.BaseResource {
 		connectionId: string;
 		count: number;
-		dailyUsages: VOO.Domain.Views.Usage.Vod.VodDailyUsage[];
+		dailyUsages: Lowco.Domain.Views.Usage.Vod.VodDailyUsage[];
 		period: Date;
 		periodStartDate: string;
 		totalExvat: number;
 		totalInvat: number;
 	}
-	interface VodMonthlyUsageCollection extends VOO.Domain.Core.Hal.BaseResource {
-		items: VOO.Domain.Views.Usage.Vod.VodMonthlyUsage[];
+	interface VodMonthlyUsageCollection extends Lowco.Domain.Core.Hal.BaseResource {
+		items: Lowco.Domain.Views.Usage.Vod.VodMonthlyUsage[];
 	}
 }

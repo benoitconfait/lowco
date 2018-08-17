@@ -1,11 +1,11 @@
-declare namespace VOO.Mobile.App.Models {
-    class OptionViewCollectionResource implements VOO.Domain.Views.Product.OptionViewCollectionResource {
+declare namespace Lowco.Models {
+    class OptionViewCollectionResource implements Lowco.Domain.Views.Product.OptionViewCollectionResource {
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
         activationStatuses: Domain.Views.Product.Activation.ActivationStatusView[];
         options: Domain.Views.Product.OptionViewResource[];
     }
 
-    class OptionViewResource implements VOO.Domain.Views.Product.OptionViewResource {
+    class OptionViewResource implements Lowco.Domain.Views.Product.OptionViewResource {
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
         activation: Domain.Views.Product.Activation.Activatability;
         category: Domain.Core.Views.Catalog.ProductCategory;
@@ -26,7 +26,7 @@ declare namespace VOO.Mobile.App.Models {
         status: Domain.Views.Product.OptionStatus;
     }
 
-    class OrderOptionsViewCollectionResource implements VOO.Domain.Views.Product.OrderOptionsViewCollectionResource {
+    class OrderOptionsViewCollectionResource implements Lowco.Domain.Views.Product.OrderOptionsViewCollectionResource {
         basket: Domain.Views.Product.OptionViewResource[];
         activationStatuses: Domain.Views.Product.Activation.ActivationStatusView[];
         options: Domain.Views.Product.OptionViewResource[];

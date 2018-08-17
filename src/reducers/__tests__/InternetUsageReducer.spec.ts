@@ -3,7 +3,7 @@ import { Reducer } from 'redux-testkit';
 import InternetUsageReducer, { State, INITIAL_STATE } from '../InternetUsageReducer';
 import BaseAction from '../../actions/BaseAction';
 import { InternetUsageActionTypes } from '../../actionTypes/internetUsageActionTypes';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 describe('reducers/InternetUsageReducer', () => {
 
@@ -24,7 +24,7 @@ describe('reducers/InternetUsageReducer', () => {
       items: [<Models.NetMonthlyUsage>{
         connectionId: '001122334455',
         dailyUsages: [<Models.NetDailyUsage>{}],
-        dailyUsageUnit: VOO.Domain.Views.Usage.Net.NetUsageUnit.UnitType.Gb,
+        dailyUsageUnit: Lowco.Domain.Views.Usage.Net.NetUsageUnit.UnitType.Gb,
         overPriceDownloadAsEuro: 0,
         overPriceUploadAsEuro: 0,
         overQuotaDownloadAsBytes: 0,
@@ -38,7 +38,7 @@ describe('reducers/InternetUsageReducer', () => {
         totalVolumeAsBytes: 0,
         totalVolumeAsUnit: 0,
         uploadVolumeAsBytes: 0,
-        usageUnit: VOO.Domain.Views.Usage.Net.NetUsageUnit.UnitType.Gb,
+        usageUnit: Lowco.Domain.Views.Usage.Net.NetUsageUnit.UnitType.Gb,
         volumeMultiplicator: 0,
         relations: []
       }],

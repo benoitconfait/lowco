@@ -1,7 +1,7 @@
 import * as phoneUsageActionTypes from '../actionTypes/phoneUsageActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const setSelectedPhoneNumber = (phoneNumber): BaseAction<phoneUsageActionTypes.PhoneUsageActionTypes.SET_SELECTED_PHONE_NUMBER, string> =>
     <BaseAction<phoneUsageActionTypes.PhoneUsageActionTypes.SET_SELECTED_PHONE_NUMBER, string>>{

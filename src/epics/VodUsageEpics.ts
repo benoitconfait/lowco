@@ -5,7 +5,7 @@ import { VodUsageActionTypes } from '../actionTypes/vodUsageActionTypes';
 import { canCallApi, getKeyForParams } from '../helpers/apiCallThrottle';
 
 import * as actions from '../actions/VodUsageActions';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import VodMonthUsage from '../components/screens/consumption/vod/VodMonthUsage';
 import { AjaxResponse, AjaxObservable } from 'rxjs/observable/dom/AjaxObservable';
 

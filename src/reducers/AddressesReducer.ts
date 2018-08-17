@@ -6,8 +6,8 @@ import {
 } from '../actionTypes/addressActionTypes';
 import BaseAction from '../actions/BaseAction';
 import _ from 'lodash';
-import Models = VOO.Mobile.App.Models;
-import AddressType = VOO.Domain.Views.Customer.AddressType;
+import Models = Lowco.Models;
+import AddressType = Lowco.Domain.Views.Customer.AddressType;
 import KeyResponse from '../actions/KeyResponse';
 
 export type State = {

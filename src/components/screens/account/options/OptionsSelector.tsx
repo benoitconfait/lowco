@@ -13,7 +13,7 @@ import moment from 'moment';
 import { formatSeconds } from '../../../../helpers/momentFormatter';
 import { COLOR_GRAY_20, COLOR_GRAY_40, COLOR_GRAY_100 } from '../../../../styles/commonStyles';
 import Icon = VOO.Mobile.App.Enums.Icon;
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 interface Props {
     hideOptionDescription?: boolean,

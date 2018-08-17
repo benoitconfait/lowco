@@ -1,6 +1,6 @@
 
-import DeviceType = VOO.Domain.Views.Usage.Phone.PhoneDailyUsage.DeviceType;
-import Localisation = VOO.Domain.Views.Usage.Phone.PhoneDailyUsage.Localisation;
+import DeviceType = Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage.DeviceType;
+import Localisation = Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage.Localisation;
 
 export const callDeviceTypeToString = (type: DeviceType) => {
     switch (type) {

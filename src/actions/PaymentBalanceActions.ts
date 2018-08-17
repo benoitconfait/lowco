@@ -1,7 +1,7 @@
 import * as paymentBalanceActionTypes from '../actionTypes/paymentBalanceActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchPaymentBalance = (): BaseAction<paymentBalanceActionTypes.PaymentBalanceActionTypes.FETCH_PAYMENT_BALANCE, null> =>
     <BaseAction<paymentBalanceActionTypes.PaymentBalanceActionTypes.FETCH_PAYMENT_BALANCE, null>>{

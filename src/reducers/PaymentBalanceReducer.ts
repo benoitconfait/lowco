@@ -3,7 +3,7 @@ import {
  } from '../actionTypes/paymentBalanceActionTypes';
  import BaseAction from '../actions/BaseAction';
  import _ from 'lodash';
- import Models = VOO.Mobile.App.Models;
+ import Models = Lowco.Models;
  import KeyResponse from '../actions/KeyResponse';
 
 export type State = {

@@ -2,7 +2,7 @@ import {
     PhoneUsageActionTypes
 } from '../actionTypes/phoneUsageActionTypes';
 import BaseAction from '../actions/BaseAction';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import KeyResponse from '../actions/KeyResponse';
 
 export type State = {

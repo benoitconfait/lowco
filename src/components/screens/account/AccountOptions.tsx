@@ -11,7 +11,7 @@ import { RootState } from '../../../reducers';
 import * as customerActions from '../../../actions/CustomerActions';
 import { COLOR_GRAY_20, COLOR_GRAY_40 } from '../../../styles/commonStyles';
 import TermsConditionsPrivaclyLink from './TermsConditionsPrivacyLink';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 type ConnectedState = {
     loading: boolean;

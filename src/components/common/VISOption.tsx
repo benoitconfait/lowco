@@ -10,7 +10,7 @@ import OptionStatus from './OptionStatus';
 import { scale } from '../../helpers/scaleHelper';
 import numeral from '../../helpers/numberFormatter';
 import translate from '../../lang/translate';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 interface Props {
   style?: any,

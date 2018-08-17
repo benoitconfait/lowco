@@ -13,7 +13,7 @@ import translate from '../../../../lang/translate';
 import FeaturedLabelValueUnit from '../../../common/FeaturedLabelValueUnit';
 import { RootState } from '../../../../reducers';
 import MobileDayUsage from './MobileDayUsage';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import numeral from '../../../../helpers/numberFormatter';
 import { scale } from '../../../../helpers/scaleHelper';
 import MyScrollView from '../../../common/MyScrollView';

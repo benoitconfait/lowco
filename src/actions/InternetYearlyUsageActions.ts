@@ -1,7 +1,7 @@
 import * as internetYearlyUsageActionTypes from '../actionTypes/internetYearlyUsageActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchInternetYearlyUsage = (): BaseAction<internetYearlyUsageActionTypes.InternetYearlyUsageActionTypes.FETCH_INTERNET_YEARLY_USAGE, null> =>
     <BaseAction<internetYearlyUsageActionTypes.InternetYearlyUsageActionTypes.FETCH_INTERNET_YEARLY_USAGE, null>>{

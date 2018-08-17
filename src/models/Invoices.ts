@@ -1,6 +1,6 @@
-declare namespace VOO.Mobile.App.Models {
+declare namespace Lowco.Models {
 
-    class Invoice implements VOO.Domain.Views.Billing.Invoice {
+    class Invoice implements Lowco.Domain.Views.Billing.Invoice {
         amount: number;
         documentReference: string;
         documentType: Domain.Views.Billing.BillingDocumentType;
@@ -13,7 +13,7 @@ declare namespace VOO.Mobile.App.Models {
         product: Domain.Views.Billing.ProductType;
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }
-    class InvoiceAddress implements VOO.Domain.Views.Billing.InvoiceAddress {
+    class InvoiceAddress implements Lowco.Domain.Views.Billing.InvoiceAddress {
         boxNumber: string;
         building: string;
         city: string;
@@ -29,7 +29,7 @@ declare namespace VOO.Mobile.App.Models {
         street2: string;
         street3: string;
     }
-    class InvoiceCollection implements VOO.Domain.Views.Billing.InvoiceCollection {
+    class InvoiceCollection implements Lowco.Domain.Views.Billing.InvoiceCollection {
         items: Domain.Views.Billing.Invoice[];
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }

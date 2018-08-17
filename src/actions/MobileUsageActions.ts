@@ -1,7 +1,7 @@
 import * as mobileUsageActionTypes from '../actionTypes/mobileUsageActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchAverageMobileUsage = (): BaseAction<mobileUsageActionTypes.MobileUsageActionTypes.FETCH_AVERAGE_MOBILE_USAGE, null> =>
     <BaseAction<mobileUsageActionTypes.MobileUsageActionTypes.FETCH_AVERAGE_MOBILE_USAGE, null>>{

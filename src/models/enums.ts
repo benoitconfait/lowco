@@ -48,7 +48,7 @@ namespace System.Net {
 		ActionNotTakenFilenameNotAllowed = 553
 	}
 }
-namespace VOO.Domain.Core.Views.Catalog {
+namespace Lowco.Domain.Core.Views.Catalog {
 	export const enum ProductCategory {
 		Unspecified = 0,
 		Internet = 1,
@@ -57,7 +57,7 @@ namespace VOO.Domain.Core.Views.Catalog {
 		Mobile = 4
 	}
 }
-namespace VOO.Domain.Core.Views.Catalog.Config {
+namespace Lowco.Domain.Core.Views.Catalog.Config {
 	export const enum ActivationSource {
 		Undefined = 0,
 		AcbisPhoneActivation = 1,
@@ -142,7 +142,7 @@ namespace VOO.Domain.Core.Views.Catalog.Config {
 		Effortel = 3
 	}
 }
-namespace VOO.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle {
+namespace Lowco.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle {
 	export const enum BundleType {
 		Data = 0,
 		Voice = 1,
@@ -154,13 +154,13 @@ namespace VOO.Domain.Core.Views.Catalog.Config.OptionConfig.Bundle {
 		SMS = 2
 	}
 }
-namespace VOO.Domain.Core.Views.Catalog.DiscountInfo {
+namespace Lowco.Domain.Core.Views.Catalog.DiscountInfo {
 	export const enum OrderableDiscountType {
 		DiscountEnabler = 0,
 		DiscountTarget = 1
 	}
 }
-namespace VOO.Domain.Core.Views.Customer.Eligibilty {
+namespace Lowco.Domain.Core.Views.Customer.Eligibilty {
 	export const enum RefusalReason4P {
 		FixAndMobileRejected = 0,
 		NotOnebillEligible = 1,
@@ -168,7 +168,7 @@ namespace VOO.Domain.Core.Views.Customer.Eligibilty {
 		MobileSubscriptionNotAllowed = 3
 	}
 }
-namespace VOO.Domain.Views.Billing {
+namespace Lowco.Domain.Views.Billing {
 	export const enum BillingDocumentType {
 		CreditNote = 0,
 		CreditNoteCancellation = 1,
@@ -195,7 +195,7 @@ namespace VOO.Domain.Views.Billing {
 		Other = 3
 	}
 }
-namespace VOO.Domain.Views.Billing.Account {
+namespace Lowco.Domain.Views.Billing.Account {
 	export const enum invoiceDeliveryType {
 		Nothing = 0,
 		Ebilling = 1,
@@ -205,7 +205,7 @@ namespace VOO.Domain.Views.Billing.Account {
 		Migration = 5
 	}
 }
-namespace VOO.Domain.Views.CreditCheck {
+namespace Lowco.Domain.Views.CreditCheck {
 	export const enum CreditScoreColor {
 		Black = 0,
 		Green = 1,
@@ -220,7 +220,7 @@ namespace VOO.Domain.Views.CreditCheck {
 		RestrictedActivation = 3
 	}
 }
-namespace VOO.Domain.Views.Cuca {
+namespace Lowco.Domain.Views.Cuca {
 	export const enum UserAccountStatus {
 		Unspecified = 0,
 		NoAccount = 1,
@@ -231,7 +231,7 @@ namespace VOO.Domain.Views.Cuca {
 		Deactivated = 6
 	}
 }
-namespace VOO.Domain.Views.Customer {
+namespace Lowco.Domain.Views.Customer {
 	export const enum AddressType {
 		Unspecified = 0,
 		Contact = 1,
@@ -239,7 +239,7 @@ namespace VOO.Domain.Views.Customer {
 		Billing = 3
 	}
 }
-namespace VOO.Domain.Views.Document {
+namespace Lowco.Domain.Views.Document {
 	export const enum DocumentProductType {
 		Pack = 0,
 		Tv = 1,
@@ -258,7 +258,7 @@ namespace VOO.Domain.Views.Document {
 		Undefined = 7
 	}
 }
-namespace VOO.Domain.Views.Legacy {
+namespace Lowco.Domain.Views.Legacy {
 	export const enum CreditScoreStatus {
 		OK = 0,
 		NOK = 1
@@ -271,7 +271,7 @@ namespace VOO.Domain.Views.Legacy {
 		Legacy = 4
 	}
 }
-namespace VOO.Domain.Views.Mandate {
+namespace Lowco.Domain.Views.Mandate {
 	export const enum MandateProductType {
 		Undefined = 0,
 		Fixed = 1,
@@ -295,13 +295,13 @@ namespace VOO.Domain.Views.Mandate {
 		ReceivedFromWeb = 4
 	}
 }
-namespace VOO.Domain.Views.NextBestOffer {
+namespace Lowco.Domain.Views.NextBestOffer {
 	export const enum OfferType {
 		Pack = 0,
 		Option = 1
 	}
 }
-namespace VOO.Domain.Views.Product {
+namespace Lowco.Domain.Views.Product {
 	export const enum OptionStatus {
 		Unspecified = 0,
 		Active = 1,
@@ -320,7 +320,7 @@ namespace VOO.Domain.Views.Product {
 		Option = 2
 	}
 }
-namespace VOO.Domain.Views.Product.Activation {
+namespace Lowco.Domain.Views.Product.Activation {
 	export const enum ActivationExternalStatus {
 		NotSpecified = 0,
 		Failure = 1
@@ -339,7 +339,7 @@ namespace VOO.Domain.Views.Product.Activation {
 		DeniedForPendingOperation = 10
 	}
 }
-namespace VOO.Domain.Views.Product.Mobile {
+namespace Lowco.Domain.Views.Product.Mobile {
 	export const enum SimCardIndicator {
 		Green = 0,
 		Orange = 1,
@@ -365,26 +365,26 @@ namespace VOO.Domain.Views.Product.Mobile {
 		Eur = 7
 	}
 }
-namespace VOO.Domain.Views.Product.Mobile.Contractor {
+namespace Lowco.Domain.Views.Product.Mobile.Contractor {
 	export const enum GenderType {
 		MALE = 0,
 		FEMALE = 1
 	}
 }
-namespace VOO.Domain.Views.Product.Mobile.ContractStatus {
+namespace Lowco.Domain.Views.Product.Mobile.ContractStatus {
 	export const enum ContractStatusType {
 		ACTIVE = 0,
 		INACTIVE = 1,
 		NEW = 2
 	}
 }
-namespace VOO.Domain.Views.Usage.Average {
+namespace Lowco.Domain.Views.Usage.Average {
 	export const enum AverageType {
 		NetTel = 0,
 		Mobile = 1
 	}
 }
-namespace VOO.Domain.Views.Usage.Mobile {
+namespace Lowco.Domain.Views.Usage.Mobile {
 	export const enum MobileDailyUsageType {
 		Voice = 0,
 		Sms = 1,
@@ -403,14 +403,14 @@ namespace VOO.Domain.Views.Usage.Mobile {
 		Megabyte = 1
 	}
 }
-namespace VOO.Domain.Views.Usage.Net.NetUsageUnit {
+namespace Lowco.Domain.Views.Usage.Net.NetUsageUnit {
 	export const enum UnitType {
 		None = 0,
 		Mb = 1,
 		Gb = 2
 	}
 }
-namespace VOO.Domain.Views.Usage.Phone.PhoneDailyUsage {
+namespace Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage {
 	export const enum DeviceType {
 		Unspecified = 'Unspecified',
 		Fixe = 'Fixe',

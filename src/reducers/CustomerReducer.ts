@@ -3,7 +3,7 @@ import {
 } from '../actionTypes/customerActionTypes';
 import BaseAction from '../actions/BaseAction';
 import _ from 'lodash';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import KeyResponse from '../actions/KeyResponse';
 
 export type State = {
@@ -14,7 +14,7 @@ export type State = {
     emailAddress: string | null,
     firstname: string | null,
     gsmNumber: string | null,
-    invoiceDeliveryType: VOO.Domain.Views.Billing.Account.invoiceDeliveryType | null,
+    invoiceDeliveryType: Lowco.Domain.Views.Billing.Account.invoiceDeliveryType | null,
     isEligibleForEBilling: boolean | null,
     isEligibleForFixDomiciliation: boolean | null,
     isSMSNotificationRequired: boolean | null,

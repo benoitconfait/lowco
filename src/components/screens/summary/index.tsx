@@ -15,7 +15,7 @@ import InvoiceEstimate from './InvoiceEstimate';
 import CurrentPeriod from './CurrentPeriod';
 import { scale } from '../../../helpers/scaleHelper';
 import { RootState } from '../../../reducers';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 type ConnectedState = {
   loading: boolean;

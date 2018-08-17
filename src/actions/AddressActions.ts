@@ -1,6 +1,6 @@
 import * as addressActionTypes from '../actionTypes/addressActionTypes';
 import BaseAction from './BaseAction';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const setSelectedPodId = (podId): BaseAction<addressActionTypes.AddressActionTypes.SET_SELECTED_POD_ID, string> =>
     <BaseAction<addressActionTypes.AddressActionTypes.SET_SELECTED_POD_ID, string>>{

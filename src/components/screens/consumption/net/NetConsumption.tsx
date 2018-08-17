@@ -14,7 +14,7 @@ import { RootState } from '../../../../reducers';
 import { COLOR_GRAY_20, COLOR_GRAY_40 } from '../../../../styles/commonStyles';
 import { scale } from '../../../../helpers/scaleHelper';
 import MyScrollView from '../../../common/MyScrollView';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 type ConnectedState = {
   loading: boolean;

@@ -1,7 +1,7 @@
 import * as invoicesActionTypes from '../actionTypes/invoicesActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchInvoices = (): BaseAction<invoicesActionTypes.InvoicesActionTypes.FETCH_INVOICES, null> =>
     <BaseAction<invoicesActionTypes.InvoicesActionTypes.FETCH_INVOICES, null>>{

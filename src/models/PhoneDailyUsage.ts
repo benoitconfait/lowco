@@ -1,4 +1,4 @@
-declare namespace VOO.Mobile.App.Models {
+declare namespace Lowco.Models {
     class PhoneCallRecord {
         callDeviceType: string;
         callLocalisation: string;
@@ -15,7 +15,7 @@ declare namespace VOO.Mobile.App.Models {
         items: PhoneCallRecord[];
     }
 
-    class PhoneDailyUsage implements VOO.Domain.Views.Usage.Phone.PhoneDailyUsage {
+    class PhoneDailyUsage implements Lowco.Domain.Views.Usage.Phone.PhoneDailyUsage {
         callDeviceType: Domain.Views.Usage.Phone.PhoneDailyUsage.DeviceType;
         callLocalisation: Domain.Views.Usage.Phone.PhoneDailyUsage.Localisation;
         crCallBegin: Date;
@@ -36,7 +36,7 @@ declare namespace VOO.Mobile.App.Models {
         relations: System.Collections.Generic.KeyValuePair<string, Domain.Core.Hal.Link>[];
     }
 
-    class PhoneDailyUsageCollection implements VOO.Domain.Views.Usage.Phone.PhoneDailyUsageCollection {
+    class PhoneDailyUsageCollection implements Lowco.Domain.Views.Usage.Phone.PhoneDailyUsageCollection {
         items: Domain.Views.Usage.Phone.PhoneDailyUsage[];
         options: Domain.Core.Views.Catalog.Config.OptionConfig[];
         outOfBundlePrice: number;

@@ -1,7 +1,7 @@
 import * as customerActionTypes from '../actionTypes/customerActionTypes';
 import BaseAction from './BaseAction';
 import KeyResponse from './KeyResponse';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 
 export const fetchCustomer = (): BaseAction<customerActionTypes.CustomerActionTypes.FETCH_CUSTOMER, null> =>
     <BaseAction<customerActionTypes.CustomerActionTypes.FETCH_CUSTOMER, null>>{

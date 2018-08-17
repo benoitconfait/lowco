@@ -12,7 +12,7 @@ import * as customerActions from '../../../actions/CustomerActions';
 import * as phoneUsageActions from '../../../actions/PhoneUsageActions';
 import Section from '../../common/Section';
 import MyScrollView from '../../common/MyScrollView';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import LineColumnType = VOO.Mobile.App.Enums.LineColumnType;
 import { formatNumber } from 'libphonenumber-js';
 

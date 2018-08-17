@@ -4,7 +4,7 @@ import { View, ScrollView, StyleSheet, Text, ActivityIndicator, RefreshControl, 
 import { Dispatch } from 'redux';
 import translate from '../../../../../lang/translate';
 import { RootState } from '../../../../../reducers';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import { scale } from '../../../../../helpers/scaleHelper';
 import Communications from 'react-native-communications';
 import * as phoneUsageActions from '../../../../../actions/PhoneUsageActions';
@@ -142,7 +142,7 @@ const mapDispatchToProps = (dispatch: Dispatch<any>): ConnectedDispatch => ({
     setSelectedPhoneNumber: (value) => dispatch(phoneUsageActions.setSelectedPhoneNumber(value)),
     fetchOptions: () => dispatch(customerOptionsActions.fetchCustomerOptions()),
     activateOption: (option: Models.OptionViewResource) => {
-        option.status = VOO.Domain.Views.Product.OptionStatus.Active;
+        option.status = Lowco.Domain.Views.Product.OptionStatus.Active;
         return dispatch(customerOptionsActions.activateCustomerOptions(
             [option], OptionActivationOrigins.TelPaidOptionsConfiguration));
     },

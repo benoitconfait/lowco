@@ -6,7 +6,7 @@ import _ from 'lodash';
 import moment from 'moment';
 import translate from '../lang/translate';
 import { callDeviceTypeToString, callLocalisationToString } from '../helpers/phoneCallHelper';
-import Models = VOO.Mobile.App.Models;
+import Models = Lowco.Models;
 import KeyResponse from '../actions/KeyResponse';
 
 export type State = {

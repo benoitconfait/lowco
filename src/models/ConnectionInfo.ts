@@ -1,4 +1,4 @@
-declare namespace VOO.Mobile.App.Models {
+declare namespace Lowco.Models {
     class ConnectionInfo {
         type: string;
         effectiveType: string;

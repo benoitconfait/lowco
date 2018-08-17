@@ -13,7 +13,7 @@ import moment from 'moment';
 import numeral from '../../../helpers/numberFormatter';
 import Icon = VOO.Mobile.App.Enums.Icon;
 import IconSize = VOO.Mobile.App.Enums.IconSize;
-import PaymentStatusType = VOO.Domain.Views.Billing.PaymentStatusType;
+import PaymentStatusType = Lowco.Domain.Views.Billing.PaymentStatusType;
 import LineColumnType = VOO.Mobile.App.Enums.LineColumnType;
 import { buildHeader } from '../../../helpers/authHelper';
 
