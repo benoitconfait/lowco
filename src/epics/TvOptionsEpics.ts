@@ -19,8 +19,6 @@ const activateTvOptionsTriggers = [
 const fetchTvOptionsEpic = (action$: any, store, { ajax }) =>
     action$.filter((action: any) => fetchTvOptionsTriggers.indexOf(action.type) >= 0)
         .mergeMap(() => {
-            // if (canCallApi(VOO.Mobile.App.Enums.ApiEndPoint.FetchCustomerOptions, store)) {
-
             return ajax.get(tvOptionsApiUrl, {}, getTokenFromStore(store))
                 .map((data) => {
                     return actions.fetchTvOptionsFulfilled(data.response);

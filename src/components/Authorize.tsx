@@ -88,7 +88,8 @@ export class Authorize extends React.Component<Props, State> {
     // Launched from an external URL
     Linking.getInitialURL().then(url => {
       if (url) {
-        this._handleOpenURL({ url });
+        //TODO: put login in place
+        //this._handleOpenURL({ url });
       }
     });
 
