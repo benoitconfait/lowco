@@ -1,21 +1,14 @@
 import React from 'react';
 import { TabNavigator, TabBarBottom } from 'react-navigation';
 import { Platform, StyleSheet, Text, View } from 'react-native';
-import Summary from './screens/summary';
-import Consumption from './screens/consumption';
-import ConsumptionStackNavigator from './screens/consumption/ConsumptionStackNavigator';
-import Invoice from './screens/invoice';
-import AccountStackNavigator from './screens/account/AccountStackNavigator';
-import Temp from './screens/error/Temp';
-import Plus from './screens/plus';
 import { COLOR_PRIMARY, COLOR_GRAY_20, COLOR_GRAY_50, COLOR_WHITE } from '../styles/commonStyles';
-import MobileOutOfBundle from './screens/consumption/mobile/OutOfBundle';
 import Header from './common/Header';
 import { scale } from '../helpers/scaleHelper';
-import IconImage from './common/IconImage';
-import IconSize = VOO.Mobile.App.Enums.IconSize;
-import Icon = VOO.Mobile.App.Enums.Icon;
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import { Home } from './screens/home';
+import { SearchBar } from 'react-native-elements'
 
+const icon = (<FontAwesome5 name={'comments'} />);
 const tabBarStyles = {
   height: scale(44),
   backgroundColor: COLOR_WHITE,
@@ -30,20 +23,25 @@ interface TabBarLabel {
 
 export default TabNavigator({
   Home: {
-    path: 'summary',
-    screen: Summary,
+    path: 'home',
+    screen: Home,
     navigationOptions: {
       header: (
-        <Header text="Résumé" />
+    <SearchBar
+      round
+      lightTheme
+      onChangeText={() => console.log('text changed')}
+      placeholder='' />
       ),
       tabBarLabel: ({ tintColor, focused }: TabBarLabel) => (
-        <Text style={[styles.label, { color: focused ? COLOR_PRIMARY : COLOR_GRAY_50 }]}>Résumé</Text>
+        <Text style={[styles.label, { color: focused ? COLOR_PRIMARY : COLOR_GRAY_50 }]}></Text>
       ),
       tabBarIcon: ({ tintColor, focused }: TabBarLabel) => (
-        <IconImage icon={Icon.VOO_CIRCLED} style={{ width: scale(23), height: scale(23) }} color={focused ? COLOR_PRIMARY : COLOR_GRAY_50} />
+        (<FontAwesome5 name={'map-marker'} size={24} color={COLOR_PRIMARY} />)
       )
     }
   },
+  /*
   Consumption: {
     path: 'consumption',
     header: (
@@ -100,7 +98,7 @@ export default TabNavigator({
       )
     })
   },
-
+*/
   /*TempError: {
     screen: Temp,
     header: (

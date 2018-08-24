@@ -1,7 +1,7 @@
-export const COLOR_PRIMARY = '#d4007a';
-export const COLOR_POSITIVE = '#7db200';
-export const COLOR_WARNING = '#f29400';
-export const COLOR_ERROR = '#d64618';
+export const COLOR_PRIMARY = '#3a5423';
+export const COLOR_POSITIVE = '#c4cb73';
+export const COLOR_WARNING = '#dd7250';
+export const COLOR_ERROR = '#d3664e';
 
 export const COLOR_TOUDOO = '#ef87b5';
 export const COLOR_WAHOO = '#d4007a';

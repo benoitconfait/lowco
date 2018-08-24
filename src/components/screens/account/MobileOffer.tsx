@@ -8,7 +8,6 @@ import ProgressBar from '../../common/ProgressBar';
 import DropDown from '../../common/DropDown';
 import translate from '../../../lang/translate';
 import { getDataUsageTexts, getSMSUsageTexts, getVoiceUsageTexts } from '../../../helpers/usageTextHelper';
-import { getPackMetadata } from '../../../helpers/packMetadata';
 import { scale } from '../../../helpers/scaleHelper';
 import Icon = VOO.Mobile.App.Enums.Icon;
 import {
@@ -36,42 +35,10 @@ function MobileOffer({ style, subscriptions, selectedMSISDN, onMobileChange }) {
 
     const monthlyPrice = subscription && subscription.offer && subscription.offer.price;
 
-    const { packImage, packName, packColor } = getPackMetadata(subscription && subscription.offer && subscription.offer.name);
 
     return (
         <View style={style}>
-            <DropDown readOnly={Object.keys(subscriptions).length === 1 && subscription} style={{ marginBottom: 5 }} defaultText={'Selectionner un plan mobile'} options={msisdns} selectedKey={selectedMSISDN.toString()} onChange={onMobileChange} />
-            <Card>
-                {(packImage || packName) ?
-                    <CardHeader style={styles.cardHeader} backgroundColor={packColor}>
-                        {!packImage && packName ? <Text style={styles.packName}>{packName}</Text> : null}
-                        {packImage ? <Image
-                            resizeMode="contain"
-                            source={packImage}
-                            style={{ height: 60 }}
-                        /> : null}
-                        {monthlyPrice ? <Text style={styles.monthlyPrice}>{monthlyPrice}€ / mois</Text> : null}
-                    </CardHeader> : null}
-            </Card>
-            {
-                simCardNumber ?
-                    <View>
-                        <Text style={styles.label}>NUMÉRO DE CARTE SIM</Text>
-                        <Section>
-                            <Text style={styles.value}>#{simCardNumber}</Text>
-                        </Section>
-                    </View>
-                    : null
-            }
-            {
-                cardHolder ?
-                    <View>
-                        <Text style={styles.label}>DÉTENTEUR DE LA CARTE</Text>
-                        <Section>
-                            <Text style={styles.value}>{cardHolder}</Text>
-                        </Section>
-                    </View> : null
-            }
+   
         </View >
     );
 };

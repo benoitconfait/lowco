@@ -10,7 +10,7 @@ import { getInternetUsageTexts } from '../../../helpers/usageTextHelper';
 import DropDown from '../../common/DropDown';
 import { setSelectedMSISDN } from '../../../actions/MobileSubscriptionsActions';
 import { setSelectedPodId } from '../../../actions/AddressActions';
-import { getPackMetadata } from '../../../helpers/packMetadata';
+
 import {
     COLOR_GRAY_80
 } from '../../../styles/commonStyles';
@@ -28,7 +28,6 @@ function FixOffer({ style, addresses, options, selectedPodId, onAddressChange })
 
     // pack metadata
     const usageAddress = addresses && addresses.find((address) => address.pointOfDelivery === selectedPodId);
-    const { packImage, packName, packColor } = getPackMetadata(usageAddress && usageAddress.packId);
 
     // TODO: distinct on externalId
     const includedOptionNames = options && options.filter((option =>
@@ -43,34 +42,7 @@ function FixOffer({ style, addresses, options, selectedPodId, onAddressChange })
 
     return (
         <View style={style}>
-            {(addresses && addresses.length > 0) ?
-                <DropDown readOnly={addresses.length === 1 && usageAddress} style={{ marginBottom: scale(5) }} defaultText={'Selectionner une addresse'} options={addressOptions} selectedKey={selectedPodId} onChange={onAddressChange} />
-                : null}
-            <Card>
-                {(packImage || packName) ?
-                    <CardHeader style={{ paddingVertical: scale(10), borderBottomLeftRadius: scale(3), borderBottomRightRadius: scale(3) }} backgroundColor={packColor}>
-                        {!packImage && packName ? <Text style={styles.packName}>{packName}</Text> : null}
-                        {packImage ? <Image
-                            resizeMode="contain"
-                            source={packImage}
-                            style={{ height: 60 }}
-                        /> : null}
-                    </CardHeader> : null}
-            </Card>
-            {includedOptionNames && includedOptionNames.length > 0 ?
-                <View style={styles.includedOptions}>
-                    {includedOptionNames.map((optionName, index) =>
-                        <Section key={`option-${index}`}>
-                            <View style={styles.includedOption}>
-                                <View style={styles.includedOptionName}>
-                                    <IconImage size={IconSize.BIG} icon={Icon.CHECK_MARK} /><Text style={styles.optionName}>{optionName}</Text>
-                                </View>
-                                <View style={styles.included}>
-                                    <Text style={styles.includedNote}>{translate('INCLUDED').toUpperCase()}</Text>
-                                </View>
-                            </View>
-                        </Section>)}
-                </View> : null}
+    
         </View>
     );
 };
